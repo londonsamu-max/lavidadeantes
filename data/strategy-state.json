@@ -1,0 +1,58 @@
+{
+ "version": 1,
+ "actualizado": "2026-08-09",
+ "fase_canal": "pre-lanzamiento",
+ "canales_referencia": [
+  {
+   "handle": "@ForgottenAmericanSurvival",
+   "idioma": "en",
+   "creado": "2026-03-23",
+   "subs": "61K",
+   "vistas_mes": 440590,
+   "nota": "Referencia #1 validada. Formato: 25 items, 20-30 min, cada 1-2 días"
+  },
+  {
+   "handle": "@ForgottenAmericanSkills",
+   "idioma": "en",
+   "creado": "2026-04",
+   "subs": "15.4K",
+   "vistas_mes": 261850,
+   "nota": "Referencia #2 validada. Mismo dueño probable"
+  },
+  {
+   "handle": "@vintagelifestyleusa",
+   "idioma": "en",
+   "subs": "260K",
+   "vistas_mes": 965080,
+   "nota": "Techo del nicho nostalgia (~1M/mes). Creado 2024"
+  },
+  {
+   "handle": "Vintage America",
+   "idioma": "en",
+   "creado": "2025-10",
+   "subs": "33K",
+   "nota": "Nostalgia por décadas, acelerando"
+  }
+ ],
+ "ideas_detectadas": [],
+ "videos_producidos": [],
+ "lecciones": [
+  "L1: Nicho validado jul-2026 con 3 investigaciones cruzadas. Referencia #1 tiene 4 meses y 440K vistas/mes",
+  "L2: Vistas por video muy variables (400-3K normal, virales 90-119K cargan el canal) — el volumen es la estrategia",
+  "L3: PROHIBIDO tocar: salud/consejos médicos, finanzas, legal (política 16-jul-2026), religioso masivo (purga ene-2026)",
+  "L4: Guion original por video + variedad visual real = defensa contra 'contenido inauténtico'",
+  "L5: Titulares que funcionan en referencia: '25 Forgotten X Our Grandparents Used to Y' — adaptar, no traducir literal",
+  "DIAGNÓSTICO 9-ago-2026: 584 vistas/28 días, 0 desde pantalla de inicio, 2 desde búsqueda. YouTube no distribuía. Dos causas medidas: CTR 1,4% y retención media 17%.",
+  "RETENCIÓN: toda la diferencia está en el primer minuto. Video 3 cae 97%→29% en 1:05; video 4 va 100%→71% en el mismo tramo. Mismo formato, misma voz, mismas imágenes. Lo único distinto: el video 4 abre con cifra dura + freno («Espere») + promesa; el 3 abre contemplando un ambiente.",
+  "ARRANQUE OBLIGATORIO: primeros 30 s (≈75 palabras) = dato concreto verificable + freno + promesa explícita. quality_gate.py lo verifica y da ROJO si falta el dato o la promesa.",
+  "MINIATURAS: el filtro vintage del video MATA la miniatura. En la portada hay que subir saturación y contraste, poner un rostro grande con emoción legible y un titular que abra una pregunta o dé una cifra — no el tema del video. Acento fijo del canal: amarillo #FFC61A.",
+  "La tarjeta de apertura de 5 s se elimina (APERTURA_S=0). Es un 8% de la ventana que decide la retención, regalado antes de la primera frase.",
+  "replan.py: cambiar el arranque de un guion ya producido NO obliga a regenerar las imágenes. Reancla por sección emparejando prompts; en el video 6 salvó 119 de 143."
+ ],
+ "proximos_pasos": [
+  "Producir video piloto de prueba",
+  "Crear cuenta Google del canal + verificaciones",
+  "Configurar ElevenLabs API key",
+  "Definir identidad visual de miniaturas"
+ ]
+}

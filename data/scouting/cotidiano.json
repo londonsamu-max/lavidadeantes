@@ -1,0 +1,356 @@
+{
+  "etiqueta": "cotidiano",
+  "consultas": [
+    "historias de la vida real animadas español",
+    "storytime animado historia real latino",
+    "relatos de barrio animados"
+  ],
+  "canales": [
+    {
+      "canal": "El Sacruz",
+      "id": "UC2hgz6ZrHAKVzVJ-qWgFbhg",
+      "creado": "2025-12-02",
+      "subs": 76600,
+      "vistas_totales": 48802526,
+      "videos": 91,
+      "vistas_por_video": 536291,
+      "videos_por_mes": 11.7,
+      "vistas_por_mes": 6259902,
+      "meses_activo": 8
+    },
+    {
+      "canal": "Las Mejores Películas ESP",
+      "id": "UCqyDH95MfkV3AVy9Q8MEfyw",
+      "creado": "2024-12-03",
+      "subs": 183000,
+      "vistas_totales": 85483415,
+      "videos": 161,
+      "vistas_por_video": 530953,
+      "videos_por_mes": 8.1,
+      "vistas_por_mes": 4323953,
+      "meses_activo": 20
+    },
+    {
+      "canal": "PeliculaLT",
+      "id": "UCXwhNZdsl1FA6_hlCW0T6MA",
+      "creado": "2025-10-07",
+      "subs": 91200,
+      "vistas_totales": 61853761,
+      "videos": 179,
+      "vistas_por_video": 345552,
+      "videos_por_mes": 18.6,
+      "vistas_por_mes": 6417592,
+      "meses_activo": 10
+    },
+    {
+      "canal": "Mi Diario Animado Español",
+      "id": "UC7fNACk1px0-66LhKMMJ-9w",
+      "creado": "2020-04-21",
+      "subs": 465000,
+      "vistas_totales": 30958497,
+      "videos": 91,
+      "vistas_por_video": 340203,
+      "videos_por_mes": 1.2,
+      "vistas_por_mes": 411337,
+      "meses_activo": 75
+    },
+    {
+      "canal": "Películas con Pasión",
+      "id": "UCcVWuneVWnF9ad-OeAtl06A",
+      "creado": "2024-10-09",
+      "subs": 128000,
+      "vistas_totales": 45692904,
+      "videos": 155,
+      "vistas_por_video": 294793,
+      "videos_por_mes": 7.2,
+      "vistas_por_mes": 2117476,
+      "meses_activo": 22
+    },
+    {
+      "canal": "Arandano 13 (Animado)",
+      "id": "UCsWI7Ds6irx2Bc0e-xQ9ntA",
+      "creado": "2026-02-10",
+      "subs": 83700,
+      "vistas_totales": 8885997,
+      "videos": 55,
+      "vistas_por_video": 161564,
+      "videos_por_mes": 10.0,
+      "vistas_por_mes": 1617571,
+      "meses_activo": 5
+    },
+    {
+      "canal": "Energia Plus Familia",
+      "id": "UC4jAg116O8DiPNJb-pRcb1Q",
+      "creado": "2026-04-16",
+      "subs": 4690,
+      "vistas_totales": 2452692,
+      "videos": 20,
+      "vistas_por_video": 122635,
+      "videos_por_mes": 6.0,
+      "vistas_por_mes": 730998,
+      "meses_activo": 3
+    },
+    {
+      "canal": "Consuegros Español",
+      "id": "UCuZKX4skilxJzjA7YIClt9A",
+      "creado": "2026-04-14",
+      "subs": 2840,
+      "vistas_totales": 1472957,
+      "videos": 15,
+      "vistas_por_video": 98197,
+      "videos_por_mes": 4.4,
+      "vistas_por_mes": 430557,
+      "meses_activo": 3
+    },
+    {
+      "canal": "Crismery RD",
+      "id": "UC4EJhyd40mvx0OLG2Ol2GLA",
+      "creado": "2019-03-22",
+      "subs": 41800,
+      "vistas_totales": 7497491,
+      "videos": 86,
+      "vistas_por_video": 87180,
+      "videos_por_mes": 1.0,
+      "vistas_por_mes": 84919,
+      "meses_activo": 88
+    },
+    {
+      "canal": "Rehman Critica",
+      "id": "UC1gfWZZd05HNxUjctXjjcmQ",
+      "creado": "2021-09-01",
+      "subs": 42700,
+      "vistas_totales": 19129881,
+      "videos": 222,
+      "vistas_por_video": 86171,
+      "videos_por_mes": 3.8,
+      "vistas_por_mes": 324887,
+      "meses_activo": 59
+    },
+    {
+      "canal": "Boxoffice ☆ Familia | Películas Completas",
+      "id": "UCNkmhE-0pWQN4Qe-ro4XuzQ",
+      "creado": "2021-12-16",
+      "subs": 12000,
+      "vistas_totales": 3435137,
+      "videos": 49,
+      "vistas_por_video": 70105,
+      "videos_por_mes": 0.9,
+      "vistas_por_mes": 62012,
+      "meses_activo": 55
+    },
+    {
+      "canal": "Fotograma",
+      "id": "UCa0Bty50hZSmCcJzngboxJQ",
+      "creado": "2012-12-14",
+      "subs": 44700,
+      "vistas_totales": 16896970,
+      "videos": 407,
+      "vistas_por_video": 41516,
+      "videos_por_mes": 2.5,
+      "vistas_por_mes": 103291,
+      "meses_activo": 164
+    },
+    {
+      "canal": "Fotograma Oculto",
+      "id": "UCuTvQzmJaF8YDOTaHxgcVDg",
+      "creado": "2026-03-12",
+      "subs": 1120,
+      "vistas_totales": 413632,
+      "videos": 19,
+      "vistas_por_video": 21770,
+      "videos_por_mes": 4.2,
+      "vistas_por_mes": 91784,
+      "meses_activo": 5
+    },
+    {
+      "canal": "Pixel Pirate Studio",
+      "id": "UCOEUMTl2uE4_-DGU659UaMg",
+      "creado": "2006-03-16",
+      "subs": 34200,
+      "vistas_totales": 942224,
+      "videos": 174,
+      "vistas_por_video": 5415,
+      "videos_por_mes": 0.7,
+      "vistas_por_mes": 3851,
+      "meses_activo": 245
+    },
+    {
+      "canal": "Terror Nocturn",
+      "id": "UCSHXCkORxy8Qwh45w8wwHMA",
+      "creado": "2026-05-14",
+      "subs": 76,
+      "vistas_totales": 13006,
+      "videos": 7,
+      "vistas_por_video": 1858,
+      "videos_por_mes": 2.9,
+      "vistas_por_mes": 5343,
+      "meses_activo": 2
+    },
+    {
+      "canal": "Historias 3D Español",
+      "id": "UCtk02s5PUsaq-5uZMcJnk1w",
+      "creado": "2026-07-22",
+      "subs": 0,
+      "vistas_totales": 1,
+      "videos": 2,
+      "vistas_por_video": 0,
+      "videos_por_mes": 2.0,
+      "vistas_por_mes": 1,
+      "meses_activo": 1
+    }
+  ],
+  "top_videos": [
+    {
+      "titulo": "TOY STORY 5 Pelicula Completa 2026: Peliculas Completas En Español Latino 2026 (",
+      "canal": "El Sacruz",
+      "vistas": 6144146,
+      "publicado": "2026-06-14",
+      "duracion": "PT1H36M35S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Película Animada de Aventuras | La princesa del mar elige el amor prohibido | Pe",
+      "canal": "Películas con Pasión",
+      "vistas": 2083601,
+      "publicado": "2026-06-05",
+      "duracion": "PT1H38M15S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "The Little Mermaid | Película de animación, dibujos animados | Películas complet",
+      "canal": "Las Mejores Películas ESP",
+      "vistas": 1016470,
+      "publicado": "2026-06-01",
+      "duracion": "PT1H38M18S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Hermosa Película Familiar | ¡Esta Historia Será Tu Favorita! | Películas Complet",
+      "canal": "Consuegros Español",
+      "vistas": 560716,
+      "publicado": "2026-05-01",
+      "duracion": "PT2H15M47S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Mi Mejor Amiga Está Celosa Porque Tengo Hermanos Perfectos",
+      "canal": "Mi Diario Animado Español",
+      "vistas": 515407,
+      "publicado": "2026-05-29",
+      "duracion": "PT22M54S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "El Rey León (1994) Película Completa en Español | Película Animada Familiar | Ex",
+      "canal": "Rehman Critica",
+      "vistas": 464890,
+      "publicado": "2026-06-25",
+      "duracion": "PT1H43M59S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "El Pequeño Zoológico Ponderosa | Película Completa | Cine Familiar en Español",
+      "canal": "Energia Plus Familia",
+      "vistas": 412073,
+      "publicado": "2026-05-22",
+      "duracion": "PT1H24M45S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Arthur y los Minimoys 2 (2009) Película Completa en Español | Película Animada |",
+      "canal": "Fotograma",
+      "vistas": 387079,
+      "publicado": "2026-05-05",
+      "duracion": "PT2H1M13S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Película Animada de Aventuras | Amor imposible entre un humano y un espíritu | P",
+      "canal": "Películas con Pasión",
+      "vistas": 352355,
+      "publicado": "2026-06-23",
+      "duracion": "PT1H38M55S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "El Rey Burro | Película Animada Completa en Español",
+      "canal": "PeliculaLT",
+      "vistas": 348450,
+      "publicado": "2026-06-01",
+      "duracion": "PT1H45M17S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Coraline y la Puerta Secreta (2009) Película Completa en Español de Disney | Dat",
+      "canal": "Crismery RD",
+      "vistas": 323509,
+      "publicado": "2026-07-05",
+      "duracion": "PT1H37M49S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "El Nacimiento de un Guerrero | FAMILIA, ANIMACIÓN | Película Completa en Español",
+      "canal": "Boxoffice ☆ Familia | Películas Completas",
+      "vistas": 319689,
+      "publicado": "2026-06-13",
+      "duracion": "PT1H49M36S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Coco (2017) Película Completa en Español de Disney | Película de Animada | Datos",
+      "canal": "Crismery RD",
+      "vistas": 316447,
+      "publicado": "2026-07-15",
+      "duracion": "PT1H37M4S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Moana 2 (2024) Película Disney en Español Latino | Datos y Reseña",
+      "canal": "Fotograma Oculto",
+      "vistas": 269360,
+      "publicado": "2026-06-01",
+      "duracion": "PT1H50M35S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "3 historias de terror en HOSPITALES (Animadas) | Arándano 13",
+      "canal": "Arandano 13 (Animado)",
+      "vistas": 184869,
+      "publicado": "2026-05-22",
+      "duracion": "PT35M37S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Dejé A Mi Familia Rica Por Mi Novio Pobre",
+      "canal": "Mi Diario Animado Español",
+      "vistas": 31973,
+      "publicado": "2026-07-22",
+      "duracion": "PT23M46S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "El Niño que Lloraba a Medianoche | Historia de Terror Real Animada",
+      "canal": "Terror Nocturn",
+      "vistas": 516,
+      "publicado": "2026-06-08",
+      "duracion": "PT47S",
+      "consulta": "historias de la vida real animadas español"
+    },
+    {
+      "titulo": "Knuck Tales",
+      "canal": "Pixel Pirate Studio",
+      "vistas": 46,
+      "publicado": "2026-05-25",
+      "duracion": "PT31S",
+      "consulta": "relatos de barrio animados"
+    },
+    {
+      "titulo": "Encontrando mi Voz 🎨 | Historia Animada de Superación y Autoaceptación",
+      "canal": "Historias 3D Español",
+      "vistas": 1,
+      "publicado": "2026-07-25",
+      "duracion": "PT2M33S",
+      "consulta": "historias de la vida real animadas español"
+    }
+  ]
+}

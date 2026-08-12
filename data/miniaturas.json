@@ -1,0 +1,60 @@
+{
+ "_nota": "Miniaturas nuevas para los videos ya publicados. El CTR medido del video 5 fue 1,4% (lo sano son 4-10%): las cinco portadas anteriores eran escenas anchas con una banda de texto abajo, sin rostro y sin promesa. Aquí cada una lleva un primer plano con emoción legible y un titular que abre una pregunta concreta.",
+ "videos": [
+  {
+   "id": "CEQJeiLGyL8",
+   "slug": "juguetes",
+   "titulo_actual": "Los juguetes de antes tienen 5.000 años",
+   "rostro": "expressive painted portrait, face of a woman in her seventies with deep wrinkles and grey streaked hair, eyes wide open in delighted surprise, mouth slightly open, holding a small wooden spinning top up near her cheek, warm indoor light, plain wall background",
+   "texto": "SU JUGUETE|TENÍA 5.000 AÑOS|*LOS JUGUETES DE ANTES",
+   "lado": "izq",
+   "semilla": 141
+  },
+  {
+   "id": "yz3a0NNvqFk",
+   "slug": "precios",
+   "titulo_actual": "Lo que costaban las cosas en 1975",
+   "rostro": "expressive painted portrait, face of a mexican woman in her sixties wearing a 1970s apron, eyebrows raised high in disbelief, one hand open showing a few coins, blurred market stall with fruit behind her, warm light",
+   "texto": "EL KILO DE TORTILLAS|A DOS SESENTA|*PRECIOS REALES DE 1975",
+   "lado": "izq",
+   "semilla": 142
+  },
+  {
+   "id": "zFFxKCSArdQ",
+   "slug": "domingo",
+   "titulo_actual": "Así era un domingo entero en 1975",
+   "rostro": "expressive painted portrait, face of a mexican man in his sixties in a white undershirt, relaxed contented half smile, eyes calm, an old bakelite radio beside him, sunday morning light through a window",
+   "texto": "EL DOMINGO|ERA OTRA COSA|*1975, HORA POR HORA",
+   "lado": "izq",
+   "semilla": 143
+  },
+  {
+   "id": "NNZoDTVOzgk",
+   "slug": "oficios",
+   "titulo_actual": "Los oficios que pasaban gritando por su calle",
+   "rostro": "expressive painted portrait, face of an older mexican knife sharpener with a thick moustache and straw hat, mouth open mid shout calling out to the street, his sharpening bicycle wheel beside him, sunny street behind",
+   "texto": "PASABAN|GRITANDO|*POR SU CALLE",
+   "lado": "izq",
+   "semilla": 144
+  },
+  {
+   "id": "4aTa3Q_ce2A",
+   "slug": "25cosas",
+   "titulo_actual": "¿Cuántas de estas 25 COSAS había en su casa?",
+   "rostro": "expressive painted portrait, face of a woman in her seventies with grey hair and deep laugh lines, warm nostalgic smile, looking straight ahead, 1970s living room behind her with a television covered by a crocheted doily",
+   "texto": "¿CUÁNTAS|TENÍA USTED?|*25 COSAS DE LOS AÑOS 70",
+   "lado": "izq",
+   "semilla": 145
+  },
+  {
+   "id": null,
+   "slug": "escuela",
+   "job": "output/escuela-de-antes",
+   "titulo_actual": "16 millones de libros: así era la escuela de los años 70 (sin publicar)",
+   "rostro": "expressive painted portrait, face of a mexican boy about eight years old in a 1970s white school uniform, worried anxious expression, eyebrows up, holding a school report card in both hands close to his chest, classroom blurred behind him",
+   "texto": "LE CALIFICABAN|LA CONDUCTA|*LA ESCUELA DE LOS 70",
+   "lado": "izq",
+   "semilla": 146
+  }
+ ]
+}

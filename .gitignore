@@ -1,0 +1,19 @@
+# CREDENCIALES — nunca al repositorio.
+# token.json es la llave del canal: quien lo tenga puede subir y borrar videos.
+config/
+
+# Videos renderizados y material intermedio: 15 GB que se regeneran solos.
+output/
+
+# Entorno y basura del sistema
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Por si acaso, aunque output/ ya los cubre
+*.mp4
+*.mp3
+
+# Claves de API (ElevenLabs, Pexels)
+.env

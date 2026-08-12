@@ -1,0 +1,93 @@
+{
+  "canal": "la-vida-de-antes",
+  "semana": 1,
+  "estrategia": "1 video/día · rotar formato y hook cada día · cero solape de temas · pagar el teaser del video anterior",
+  "cadencia": "1 video diario, misma hora (sugerido 6:00pm hora México, horario de mayor consumo 50+)",
+  "videos": [
+    {
+      "dia": 1,
+      "slug": "casa-anos-70",
+      "estado": "PRODUCIDO (piloto, ya subido en privado)",
+      "formato": "F1-lista",
+      "hook": "H1-reconocimiento",
+      "titulo": "¿SE ACUERDA DE ESTO? 25 cosas que había en TODA casa de los años 70",
+      "teaser_siguiente": "los oficios del barrio que pasaban gritando"
+    },
+    {
+      "dia": 2,
+      "slug": "oficios-del-barrio",
+      "formato": "F6-oficios",
+      "hook": "H4-objeto-misterioso",
+      "titulo": "Los OFICIOS que pasaban gritando por su calle... y que ya nadie escucha",
+      "tema": "El afilador con su flauta, el ropavejero, el merolico, el bolero, el paletero con campana, el aguador, el organillero, el fotógrafo de parque. Sonidos y pregones del barrio 60s-80s.",
+      "gancho_apertura": "Este sonido lo despertaba a usted los sábados. Hoy ya no existe. ¿Lo reconoce?",
+      "loop_abierto": "el oficio del número 8 desapareció de la noche a la mañana por una sola razón",
+      "teaser_siguiente": "los sábados de la infancia: la rutina completa de un día de 1975"
+    },
+    {
+      "dia": 3,
+      "slug": "domingo-de-1975",
+      "formato": "F3-un-dia-en-la-vida",
+      "hook": "H3-viaje-temporal",
+      "titulo": "Así era un DOMINGO en 1975: de la misa al mercado (usted lo vivió)",
+      "tema": "Recorrido de un domingo completo: levantarse con el radio, el pan dulce, la misa, el mercado, la comida familiar de varias horas, la sobremesa, la caminata en la plaza, la película en familia.",
+      "gancho_apertura": "Hoy volvemos a un domingo de 1975. Cierre los ojos un momento y acompáñeme.",
+      "loop_abierto": "había un momento del domingo que todos esperábamos... y llegaba al final del día",
+      "teaser_siguiente": "lo que costaban las cosas entonces (le va a sorprender)"
+    },
+    {
+      "dia": 4,
+      "slug": "precios-de-antes",
+      "formato": "F4-antes-vs-ahora",
+      "hook": "H2-dato-incompleto",
+      "titulo": "Lo que COSTABAN las cosas en 1978... y lo que cuestan hoy",
+      "tema": "Precios reales verificables de antaño: el kilo de tortillas, el refresco, el boleto de cine, la gasolina, el periódico, un coche, una casa, el salario mínimo. Comparación honesta con datos verificados (NO inventar cifras).",
+      "gancho_apertura": "En 1978, con un billete usted llenaba la despensa. Hoy no alcanza para... espere y verá.",
+      "nota_produccion": "OBLIGATORIO verificar cada precio con fuente (hemeroteca/INEGI). Nada inventado.",
+      "loop_abierto": "el precio del número final es el que más duele comparar",
+      "teaser_siguiente": "los juguetes con los que fuimos felices sin pilas ni pantallas"
+    },
+    {
+      "dia": 5,
+      "slug": "juguetes-de-antes",
+      "formato": "F1-lista",
+      "hook": "H1-reconocimiento",
+      "titulo": "20 JUGUETES de antes que nos hacían felices SIN pilas ni pantallas",
+      "tema": "Balero, trompo, canicas, matatena, resortera, muñeca de trapo, carrito de madera, avalancha, yoyo, lotería, serpientes y escaleras, la cuerda, el bote pateado, el stop. Juegos de calle y de casa.",
+      "gancho_apertura": "¿Cuántos de estos tuvo usted? Ninguno necesitaba enchufe, y éramos más felices.",
+      "loop_abierto": "el juguete número 20 hoy vale una fortuna entre coleccionistas",
+      "teaser_siguiente": "la música que sonaba en cada casa: los aparatos y las canciones"
+    },
+    {
+      "dia": 6,
+      "slug": "musica-de-antes",
+      "formato": "F2-tema-profundidad",
+      "hook": "H4-objeto-misterioso",
+      "titulo": "La CONSOLA: el mueble que reunía a toda la familia (y cómo desapareció)",
+      "tema": "Historia del aparato de música en el hogar hispano: de la consola de madera al tocadiscos, el radio de bulbos, los discos de acetato, el casete. Cómo la música se escuchaba EN FAMILIA y en un solo aparato. (Hablar de artistas/época como CONTEXTO, sin reproducir canciones por copyright.)",
+      "gancho_apertura": "Este mueble era el orgullo de la sala. Costaba una fortuna y unía a la familia entera.",
+      "loop_abierto": "lo que reemplazó a la consola cambió para siempre cómo escuchamos música juntos",
+      "teaser_siguiente": "los sabores de la cocina de nuestras abuelas"
+    },
+    {
+      "dia": 7,
+      "slug": "cocina-de-la-abuela",
+      "formato": "F5-recorrido-lugar",
+      "hook": "H3-viaje-temporal",
+      "titulo": "La COCINA de nuestra abuela: los sabores y olores que ya no existen",
+      "tema": "Recorrido por la cocina tradicional: el fogón de leña, el comal, el metate, las ollas de barro, el café de olla, el pan casero, las conservas, el molcajete. Los olores y rituales de cocinar de antes.",
+      "gancho_apertura": "Este olor lo transporta de inmediato a la cocina de su abuela. ¿Lo puede oler?",
+      "nota": "Tratar remedios/comida como HISTORIA y cultura, NUNCA como consejo de salud (política 2026).",
+      "loop_abierto": "había un utensilio que toda abuela cuidaba como un tesoro... y hoy casi nadie sabe usar",
+      "teaser_siguiente": "las tradiciones de la Navidad de antes"
+    }
+  ],
+  "notas_globales": [
+    "Cada video aplica las 26 reglas de docs/REGLAS-PRODUCCION-EVIDENCIA.md (anclaje 1965-1990, hook cálido-curioso, transiciones explícitas, texto redundante, cierre parasocial)",
+    "Registrar cada video en data/registro-contenido.json tras producirlo (formato, hook, temas usados) para el candado anti-repetición",
+    "El candado de imágenes (data/imagenes-usadas.json) garantiza cero reciclaje visual entre los 7 videos",
+    "Modo review: cada video se sube en privado, se revisa, y se cambia a público",
+    "Formatos usados esta semana: F1(x2), F2, F3, F4, F5, F6 — variedad alta, sin dos iguales seguidos",
+    "Hooks usados: H1(x2), H2, H3(x2), H4(x2) — rotados, nunca dos iguales seguidos"
+  ]
+}

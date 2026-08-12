@@ -1,0 +1,41 @@
+{
+  "actualizado": "2026-07-25",
+  "hora_publicacion": "15:00 (hora Colombia)",
+  "cadencia": "1 video/día · sube a 2/día el 15-ago-2026 si las métricas aguantan",
+  "programacion": [
+    {
+      "fecha": "2026-07-25",
+      "dia": "sábado",
+      "slug": "oficios-del-barrio",
+      "accion": "PUBLICAR AHORA (ya pasaron las 15:00)",
+      "estado": "listo"
+    },
+    {
+      "fecha": "2026-07-26",
+      "dia": "domingo",
+      "slug": "domingo-de-1975",
+      "accion": "publicar 15:00 + producir el video 4",
+      "estado": "producido, pendiente re-sincronizar subtítulos"
+    },
+    {
+      "fecha": "2026-07-27",
+      "dia": "lunes",
+      "slug": "precios-de-antes",
+      "accion": "publicar 15:00 + producir el video 5",
+      "estado": "pendiente",
+      "formato": "F4-antes-vs-ahora",
+      "hook": "H2-dato-incompleto",
+      "nota": "paga el teaser del video 3. OBLIGATORIO verificar cada precio en la Hemeroteca Nacional (hndm.iib.unam.mx). Nada inventado."
+    },
+    {
+      "fecha": "2026-07-28",
+      "dia": "martes",
+      "slug": "juguetes-de-antes",
+      "accion": "publicar 15:00 + producir el video 6",
+      "estado": "pendiente",
+      "formato": "F1-lista",
+      "hook": "H1-reconocimiento"
+    }
+  ],
+  "regla": "Cada día a las 15:00: publicar el video listo Y producir el del día siguiente. Así siempre hay uno en reserva."
+}

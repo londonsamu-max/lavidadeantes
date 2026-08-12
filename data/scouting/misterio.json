@@ -1,0 +1,636 @@
+{
+  "etiqueta": "misterio",
+  "consultas": [
+    "casos sin resolver misterio",
+    "historias reales impactantes narradas",
+    "misterios de la historia documental"
+  ],
+  "canales": [
+    {
+      "canal": "Alex PH",
+      "id": "UCcUcfEwyDXBMsvYfoOdK7SA",
+      "creado": "2015-11-24",
+      "subs": 2750000,
+      "vistas_totales": 339066610,
+      "videos": 99,
+      "vistas_por_video": 3424915,
+      "videos_por_mes": 0.8,
+      "vistas_por_mes": 2644337,
+      "meses_activo": 128
+    },
+    {
+      "canal": "El Rincón De Giorgio",
+      "id": "UCDZsyOkn-WTiTwgAvZSQ_cg",
+      "creado": "2013-03-22",
+      "subs": 12300000,
+      "vistas_totales": 1866603940,
+      "videos": 613,
+      "vistas_por_video": 3045031,
+      "videos_por_mes": 3.8,
+      "vistas_por_mes": 11639951,
+      "meses_activo": 160
+    },
+    {
+      "canal": "Nat Geo en Español",
+      "id": "UCKVtMu6QLSEA528Li51ndPQ",
+      "creado": "2024-05-06",
+      "subs": 1580000,
+      "vistas_totales": 669175619,
+      "videos": 330,
+      "vistas_por_video": 2027805,
+      "videos_por_mes": 12.4,
+      "vistas_por_mes": 25052880,
+      "meses_activo": 27
+    },
+    {
+      "canal": "Sabías Esto",
+      "id": "UCHmk2twLlYKetBaCnHT7geA",
+      "creado": "2025-04-23",
+      "subs": 173000,
+      "vistas_totales": 380974887,
+      "videos": 278,
+      "vistas_por_video": 1370413,
+      "videos_por_mes": 18.4,
+      "vistas_por_mes": 25177471,
+      "meses_activo": 15
+    },
+    {
+      "canal": "DJ.Jeff64",
+      "id": "UCs5B0iqtOJrrz6lkcn6NZcQ",
+      "creado": "2024-06-02",
+      "subs": 503000,
+      "vistas_totales": 174156588,
+      "videos": 158,
+      "vistas_por_video": 1102257,
+      "videos_por_mes": 6.1,
+      "vistas_por_mes": 6744408,
+      "meses_activo": 26
+    },
+    {
+      "canal": "Archivo Contemporáneo",
+      "id": "UC7fxM0xHHm2mXLpEbwm9VMA",
+      "creado": "2020-10-29",
+      "subs": 54000,
+      "vistas_totales": 136635761,
+      "videos": 129,
+      "vistas_por_video": 1059192,
+      "videos_por_mes": 1.9,
+      "vistas_por_mes": 1980795,
+      "meses_activo": 69
+    },
+    {
+      "canal": "clubernaut",
+      "id": "UCTxBaETqXxRzJNHl5cSnIGw",
+      "creado": "2025-07-24",
+      "subs": 346000,
+      "vistas_totales": 28906475,
+      "videos": 31,
+      "vistas_por_video": 932467,
+      "videos_por_mes": 2.6,
+      "vistas_por_mes": 2387926,
+      "meses_activo": 12
+    },
+    {
+      "canal": "Raquel de la Morena",
+      "id": "UC_0j0mtBAGTj1U7LD3J0dhQ",
+      "creado": "2012-06-04",
+      "subs": 1360000,
+      "vistas_totales": 209147541,
+      "videos": 295,
+      "vistas_por_video": 708975,
+      "videos_por_mes": 1.7,
+      "vistas_por_mes": 1230756,
+      "meses_activo": 170
+    },
+    {
+      "canal": "Penguinator",
+      "id": "UCOGp5dEM3jMb7rVafepOEEA",
+      "creado": "2025-08-27",
+      "subs": 176000,
+      "vistas_totales": 56506195,
+      "videos": 81,
+      "vistas_por_video": 697607,
+      "videos_por_mes": 7.4,
+      "vistas_por_mes": 5143079,
+      "meses_activo": 11
+    },
+    {
+      "canal": "Natx",
+      "id": "UCcyH_5muTk6KhxaoCbsqf4w",
+      "creado": "2020-12-06",
+      "subs": 1530000,
+      "vistas_totales": 327213156,
+      "videos": 582,
+      "vistas_por_video": 562222,
+      "videos_por_mes": 8.6,
+      "vistas_por_mes": 4831122,
+      "meses_activo": 68
+    },
+    {
+      "canal": "Podcast Extra Anormal",
+      "id": "UC-e25eS3oTJMFw-eHRCol3g",
+      "creado": "2013-12-11",
+      "subs": 2390000,
+      "vistas_totales": 416506104,
+      "videos": 1067,
+      "vistas_por_video": 390352,
+      "videos_por_mes": 7.0,
+      "vistas_por_mes": 2745996,
+      "meses_activo": 152
+    },
+    {
+      "canal": "TAYSON FF",
+      "id": "UCaR0wVEoxjhFrvOQ8JJsvWw",
+      "creado": "2019-11-11",
+      "subs": 4330000,
+      "vistas_totales": 575633911,
+      "videos": 1568,
+      "vistas_por_video": 367113,
+      "videos_por_mes": 19.5,
+      "vistas_por_mes": 7142560,
+      "meses_activo": 81
+    },
+    {
+      "canal": "El Escoces gamer",
+      "id": "UC15QE9U_c5QZd1qKP57_hMA",
+      "creado": "2016-04-01",
+      "subs": 1560000,
+      "vistas_totales": 1965363389,
+      "videos": 5817,
+      "vistas_por_video": 337865,
+      "videos_por_mes": 46.9,
+      "vistas_por_mes": 15852228,
+      "meses_activo": 124
+    },
+    {
+      "canal": "Relatos del Lado Oscuro",
+      "id": "UCA1vMPfVrCB_NPnvuiMQ8PQ",
+      "creado": "2018-01-15",
+      "subs": 1470000,
+      "vistas_totales": 510320596,
+      "videos": 1587,
+      "vistas_por_video": 321563,
+      "videos_por_mes": 15.5,
+      "vistas_por_mes": 4980336,
+      "meses_activo": 102
+    },
+    {
+      "canal": "MundoCreepy",
+      "id": "UCeFU92qBf_vDdS9_mGQCbhg",
+      "creado": "2013-04-23",
+      "subs": 3170000,
+      "vistas_totales": 691405362,
+      "videos": 2283,
+      "vistas_por_video": 302849,
+      "videos_por_mes": 14.3,
+      "vistas_por_mes": 4340021,
+      "meses_activo": 159
+    },
+    {
+      "canal": "EVIDENCIA INCOMPLETA",
+      "id": "UCN5oY3KY8yi6Fgh42JYNrng",
+      "creado": "2025-12-06",
+      "subs": 29700,
+      "vistas_totales": 8482260,
+      "videos": 29,
+      "vistas_por_video": 292492,
+      "videos_por_mes": 3.8,
+      "vistas_por_mes": 1106698,
+      "meses_activo": 8
+    },
+    {
+      "canal": "Glenn - Sector del Terror",
+      "id": "UCMKxkP7nqUukDti9c2hEAIg",
+      "creado": "2023-01-18",
+      "subs": 485000,
+      "vistas_totales": 116720166,
+      "videos": 420,
+      "vistas_por_video": 277905,
+      "videos_por_mes": 9.9,
+      "vistas_por_mes": 2759170,
+      "meses_activo": 42
+    },
+    {
+      "canal": "pepe&chema podcast",
+      "id": "UC53qC2QNmGEJXL9yLEDUWxA",
+      "creado": "2022-12-05",
+      "subs": 1810000,
+      "vistas_totales": 240305536,
+      "videos": 1014,
+      "vistas_por_video": 236988,
+      "videos_por_mes": 23.2,
+      "vistas_por_mes": 5492698,
+      "meses_activo": 44
+    },
+    {
+      "canal": "El último huésped - Relatos de terror",
+      "id": "UCI7h7uf1OVwfaPyIU0-u95Q",
+      "creado": "2023-10-26",
+      "subs": 188000,
+      "vistas_totales": 41649513,
+      "videos": 307,
+      "vistas_por_video": 135666,
+      "videos_por_mes": 9.3,
+      "vistas_por_mes": 1259846,
+      "meses_activo": 33
+    },
+    {
+      "canal": "National Geographic España",
+      "id": "UCpyYUq9kcBMLPlfE8EzguvA",
+      "creado": "2011-06-11",
+      "subs": 843000,
+      "vistas_totales": 267587523,
+      "videos": 2167,
+      "vistas_por_video": 123483,
+      "videos_por_mes": 11.9,
+      "vistas_por_mes": 1472337,
+      "meses_activo": 182
+    },
+    {
+      "canal": "De Todo Un Mucho",
+      "id": "UC-rM_KDQahhd_tXLSLKHIFw",
+      "creado": "2020-05-14",
+      "subs": 1080000,
+      "vistas_totales": 189015194,
+      "videos": 1636,
+      "vistas_por_video": 115535,
+      "videos_por_mes": 22.0,
+      "vistas_por_mes": 2536893,
+      "meses_activo": 75
+    },
+    {
+      "canal": "Tess Misterios",
+      "id": "UCbfc0WQPCgLvj6nEFj25ySw",
+      "creado": "2020-03-21",
+      "subs": 602000,
+      "vistas_totales": 130938517,
+      "videos": 1136,
+      "vistas_por_video": 115263,
+      "videos_por_mes": 14.9,
+      "vistas_por_mes": 1716486,
+      "meses_activo": 76
+    },
+    {
+      "canal": "Se Regalan Sustos",
+      "id": "UCfSYACToPNFkM-HodZcq5Ew",
+      "creado": "2023-10-18",
+      "subs": 490000,
+      "vistas_totales": 70216736,
+      "videos": 728,
+      "vistas_por_video": 96452,
+      "videos_por_mes": 21.8,
+      "vistas_por_mes": 2107195,
+      "meses_activo": 33
+    },
+    {
+      "canal": "History Latinoamérica",
+      "id": "UCVvwbez-BNlWvbxtpOx0MGQ",
+      "creado": "2012-03-08",
+      "subs": 8100000,
+      "vistas_totales": 3333268343,
+      "videos": 36267,
+      "vistas_por_video": 91909,
+      "videos_por_mes": 209.8,
+      "vistas_por_mes": 19286516,
+      "meses_activo": 173
+    },
+    {
+      "canal": "PUNTO MUERTO",
+      "id": "UCAPmqDbVdw_GBiW0_ffQtlg",
+      "creado": "2022-05-19",
+      "subs": 1090000,
+      "vistas_totales": 213474178,
+      "videos": 2598,
+      "vistas_por_video": 82169,
+      "videos_por_mes": 51.6,
+      "vistas_por_mes": 4241578,
+      "meses_activo": 50
+    },
+    {
+      "canal": "Ment3curiosa🧠",
+      "id": "UCZToD_4gXxjN_3yhA5sdULg",
+      "creado": "2025-06-29",
+      "subs": 13700,
+      "vistas_totales": 3273315,
+      "videos": 41,
+      "vistas_por_video": 79837,
+      "videos_por_mes": 3.2,
+      "vistas_por_mes": 253203,
+      "meses_activo": 13
+    },
+    {
+      "canal": "Detrás De La Historia",
+      "id": "UCox4BVcJ5EbX_mDGmfoJqXw",
+      "creado": "2025-08-18",
+      "subs": 54400,
+      "vistas_totales": 9826665,
+      "videos": 129,
+      "vistas_por_video": 76176,
+      "videos_por_mes": 11.4,
+      "vistas_por_mes": 870935,
+      "meses_activo": 11
+    },
+    {
+      "canal": "Orígenes de las Escrituras",
+      "id": "UCd0GFfumkUs6tKQtK6t8abQ",
+      "creado": "2023-08-31",
+      "subs": 52600,
+      "vistas_totales": 12987545,
+      "videos": 181,
+      "vistas_por_video": 71754,
+      "videos_por_mes": 5.2,
+      "vistas_por_mes": 372122,
+      "meses_activo": 35
+    },
+    {
+      "canal": "Historias de Drama",
+      "id": "UCDwAdX8vtN9La4hpjvgu9xw",
+      "creado": "2026-04-23",
+      "subs": 35200,
+      "vistas_totales": 4317751,
+      "videos": 65,
+      "vistas_por_video": 66427,
+      "videos_por_mes": 20.8,
+      "vistas_por_mes": 1381680,
+      "meses_activo": 3
+    },
+    {
+      "canal": "Edad de Oro de Hollywood",
+      "id": "UCxUG590haf-UWZ_uNpTmZkw",
+      "creado": "2023-10-09",
+      "subs": 3270,
+      "vistas_totales": 511601,
+      "videos": 34,
+      "vistas_por_video": 15047,
+      "videos_por_mes": 1.0,
+      "vistas_por_mes": 15218,
+      "meses_activo": 34
+    },
+    {
+      "canal": "Misterios en el Tiempo 4k",
+      "id": "UCDnkmjs3SDaCyvlMen4c8mQ",
+      "creado": "2026-06-24",
+      "subs": 1350,
+      "vistas_totales": 309970,
+      "videos": 37,
+      "vistas_por_video": 8378,
+      "videos_por_mes": 34.1,
+      "vistas_por_mes": 285548,
+      "meses_activo": 1
+    },
+    {
+      "canal": "Relatos infieles",
+      "id": "UCse-8oaxaxHFTg3eFcGW7Fw",
+      "creado": "2011-10-29",
+      "subs": 619,
+      "vistas_totales": 63804,
+      "videos": 8,
+      "vistas_por_video": 7976,
+      "videos_por_mes": 0.0,
+      "vistas_por_mes": 360,
+      "meses_activo": 177
+    }
+  ],
+  "top_videos": [
+    {
+      "titulo": "Encontré 15 Casos Inquietantes...",
+      "canal": "Alex PH",
+      "vistas": 1845023,
+      "publicado": "2026-05-20",
+      "duracion": "PT47M48S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "\"Estas Muertes y Crimines nadie los puede resolver y explicar\" Jessica Rojas | p",
+      "canal": "pepe&chema podcast",
+      "vistas": 1787707,
+      "publicado": "2026-07-07",
+      "duracion": "PT1H4M13S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "EL EXTRAÑO CASO DE LA FAMILIA QUE FUE MASACRADA DE FORMA IMPOSIBLE | La Familia ",
+      "canal": "El Rincón De Giorgio",
+      "vistas": 1713649,
+      "publicado": "2026-05-05",
+      "duracion": "PT28M50S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Lo que la Biblia no cuenta: El Misterio de los Gigantes que sobrevivieron al Dil",
+      "canal": "Orígenes de las Escrituras",
+      "vistas": 1636509,
+      "publicado": "2026-04-29",
+      "duracion": "PT32M5S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "¿QUÉ SE OCULTA BAJO EL AGUA? - Inexplicable - Episodio Completo",
+      "canal": "History Latinoamérica",
+      "vistas": 1111372,
+      "publicado": "2026-05-21",
+      "duracion": "PT42M1S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "Señales del Espacio Profundo - INEXPLICABLE MISTERIOS DEL UNIVERSO CON WILLIAM S",
+      "canal": "History Latinoamérica",
+      "vistas": 1080764,
+      "publicado": "2026-06-04",
+      "duracion": "PT42M",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "Los Experimentos más Terribles🧪 - Expedientes Desclasificados con David Duchovny",
+      "canal": "History Latinoamérica",
+      "vistas": 1019415,
+      "publicado": "2026-06-12",
+      "duracion": "PT41M38S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "LA LLORONA marcó a mi HIJO | Relatos PARANORMALES REALES",
+      "canal": "Podcast Extra Anormal",
+      "vistas": 747015,
+      "publicado": "2026-07-16",
+      "duracion": "PT1H17M35S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "El Iceberg de los Misterios que la Humanidad esconde 💀 Explicado",
+      "canal": "Ment3curiosa🧠",
+      "vistas": 733882,
+      "publicado": "2026-05-15",
+      "duracion": "PT54M13S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "7 Misterios SIN RESOLVER de ARGENTINA 🇦🇷 │ MundoCreepy",
+      "canal": "MundoCreepy",
+      "vistas": 690208,
+      "publicado": "2026-05-25",
+      "duracion": "PT1H2M56S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "7 Misterios SIN RESOLVER de los años 60s │ MundoCreepy",
+      "canal": "MundoCreepy",
+      "vistas": 682376,
+      "publicado": "2026-05-10",
+      "duracion": "PT58M5S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "EL MISTERIO SIN RESOLVER DE FREE FIRE💔",
+      "canal": "TAYSON FF",
+      "vistas": 525093,
+      "publicado": "2026-05-21",
+      "duracion": "PT1M2S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "💀 Maldiciones terroríficas y grandes misterios del PERÚ 🇵🇪 Lo mejor de INEXPLICA",
+      "canal": "History Latinoamérica",
+      "vistas": 496736,
+      "publicado": "2026-05-01",
+      "duracion": "PT35M25S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "El objeto que revela la verdad sobre el Arca - Grandes Misterios de la Historia ",
+      "canal": "History Latinoamérica",
+      "vistas": 484450,
+      "publicado": "2026-07-19",
+      "duracion": "PT41M27S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "6 Casos Perturbadores Sin Resolver Captados En Video",
+      "canal": "Penguinator",
+      "vistas": 483362,
+      "publicado": "2026-05-06",
+      "duracion": "PT51M39S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "La Mujer sin Cabeza: Olga #historia #datoscuriosos #casosreales",
+      "canal": "Archivo Contemporáneo",
+      "vistas": 450047,
+      "publicado": "2026-06-26",
+      "duracion": "PT10S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "Los MISTERIOS mas perturbadores SIN RESOLVER | ¿Militares o alienígenas?",
+      "canal": "Se Regalan Sustos",
+      "vistas": 441226,
+      "publicado": "2026-05-12",
+      "duracion": "PT1H10M58S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "7 Misterios SIN RESOLVER de MÉXICO (Parte 4) | MundoCreepy",
+      "canal": "MundoCreepy",
+      "vistas": 414919,
+      "publicado": "2026-05-31",
+      "duracion": "PT1H1M41S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Los secretos borrados de la Biblia 📜 - Inexplicable - Episodio Completo",
+      "canal": "History Latinoamérica",
+      "vistas": 407678,
+      "publicado": "2026-07-03",
+      "duracion": "PT42M1S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "7 Personas MISTERIOSAS que NUNCA fueron identificadas | MundoCreepy",
+      "canal": "MundoCreepy",
+      "vistas": 407649,
+      "publicado": "2026-06-28",
+      "duracion": "PT50M14S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "MISTERIOS QUE NADIE HA PODIDO EXPLICAR | De Todo Un Mucho Martha Higareda y Yord",
+      "canal": "De Todo Un Mucho",
+      "vistas": 378003,
+      "publicado": "2026-05-06",
+      "duracion": "PT50M6S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Misterios Del Internet Antiguo... [Vol. II]",
+      "canal": "clubernaut",
+      "vistas": 372473,
+      "publicado": "2026-06-20",
+      "duracion": "PT21M40S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Tumbas Perdidas de las Pirámides: Secretos Revelados (Documental Completo) | Nat",
+      "canal": "Nat Geo en Español",
+      "vistas": 326457,
+      "publicado": "2026-05-16",
+      "duracion": "PT44M25S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "LAS ÚLTIMAS 12 HORAS DE MICHAEL JACKSON 👑",
+      "canal": "Sabías Esto",
+      "vistas": 324670,
+      "publicado": "2026-05-01",
+      "duracion": "PT17S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "6 HISTORIAS de TERROR JAMÁS CONTADAS de TRAILEROS Vol. 29",
+      "canal": "Glenn - Sector del Terror",
+      "vistas": 295698,
+      "publicado": "2026-05-11",
+      "duracion": "PT38M1S",
+      "consulta": "historias reales impactantes narradas"
+    },
+    {
+      "titulo": "El caso más aterrador sin resolver de internet / dr gloves",
+      "canal": "DJ.Jeff64",
+      "vistas": 289458,
+      "publicado": "2026-06-28",
+      "duracion": "PT1M8S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Los NIÑOS VERDES de WOOLPIT: ¿Vinieron de OTRO MUNDO? | Misterio Medieval Sin Re",
+      "canal": "Misterios en el Tiempo 4k",
+      "vistas": 287819,
+      "publicado": "2026-07-21",
+      "duracion": "PT1M9S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "Los misterios del Éxodo | TESOROS PERDIDOS DE LA BIBLIA | NATIONAL GEOGRAPHIC ES",
+      "canal": "National Geographic España",
+      "vistas": 287128,
+      "publicado": "2026-05-11",
+      "duracion": "PT44M13S",
+      "consulta": "misterios de la historia documental"
+    },
+    {
+      "titulo": "El Caso Reciente que Pasó en 2026 y Conmocionó a México l La Mas4cre de Tehuitzi",
+      "canal": "Tess Misterios",
+      "vistas": 282727,
+      "publicado": "2026-06-17",
+      "duracion": "PT25M40S",
+      "consulta": "casos sin resolver misterio"
+    },
+    {
+      "titulo": "EL PLAN DE SHERLOCK HOLMES - Grandes Robos de la Historia - Episodio Completo",
+      "canal": "History Latinoamérica",
+      "vistas": 281440,
+      "publicado": "2026-07-01",
+      "duracion": "PT41M40S",
+      "consulta": "misterios de la historia documental"
+    }
+  ]
+}

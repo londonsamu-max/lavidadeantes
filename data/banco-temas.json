@@ -1,0 +1,27 @@
+{
+  "actualizado": "2026-07-24",
+  "canal": "la-vida-de-antes",
+  "nota": "20 temas validados con fuente. Al producir, mover a registro-contenido.json. Verificar 2 fuentes por dato duro.",
+  "temas": [
+    {"id": 1, "titulo": "15 oficios que ya no existen", "formato": "F6", "fuentes": ["México Desconocido", "tesis UNAM"], "datos": "aguador fin s.XIX, hielero mediados s.XX, afilador, sereno, farolero, lechero"},
+    {"id": 2, "titulo": "Juguetes antes de la tecnología", "formato": "F1", "fuentes": ["MUJAM", "México Desconocido"], "datos": "balero (maya 250-950), trompo, matatena (náhuatl), canicas, sololoy"},
+    {"id": 3, "titulo": "Productos que amabas y desaparecieron", "formato": "F1", "fuentes": ["TikTok trends", "Wikipedia marcas"], "datos": "Frutsi, Mirinda mango, Doritos Toro, Choco Milk"},
+    {"id": 4, "titulo": "La Navidad de antes: posadas, colación y ponche", "formato": "F5", "estacional": "diciembre", "fuentes": ["México Desconocido"], "datos": "posadas 1586 Acolman, 7 picos=pecados"},
+    {"id": 5, "titulo": "El Día de Muertos de nuestra infancia vs hoy", "formato": "F4", "estacional": "noviembre"},
+    {"id": 6, "titulo": "Ir al mercado / tienda de la esquina en los 70", "formato": "F3", "fuentes": ["HNDM anuncios y precios"]},
+    {"id": 7, "titulo": "Comerciales de TV que toda una generación se sabía", "formato": "F2", "fuentes": ["@retro_canal", "Cine Nostalgia"]},
+    {"id": 8, "titulo": "La cocina de la abuela: utensilios que ya nadie usa", "formato": "F5", "datos": "molcajete, comal, metate, olla express antigua"},
+    {"id": 9, "titulo": "Las fiestas patrias de antes", "formato": "F5", "estacional": "septiembre"},
+    {"id": 10, "titulo": "Los dulces de la tiendita de 5 centavos", "formato": "F1", "fuentes": ["HNDM precios de época"]},
+    {"id": 11, "titulo": "Cuánto costaban las cosas en 1975", "formato": "F4", "fuentes": ["HNDM", "INEGI"], "nota": "verificar cada precio"},
+    {"id": 12, "titulo": "El cine mexicano de la Época de Oro en familia", "formato": "F2", "fuentes": ["Cine Nostalgia", "Filmoteca UNAM"]},
+    {"id": 13, "titulo": "Los juegos en la calle antes de los videojuegos", "formato": "F1", "datos": "bote pateado, encantados, avión, resorte"},
+    {"id": 14, "titulo": "Aparatos del hogar que marcaron una época", "formato": "F1", "datos": "tocadiscos, radio de bulbos, TV b/n, teléfono de disco"},
+    {"id": 15, "titulo": "La música que sonaba en cada casa", "formato": "F2", "fuentes": ["La Música del Recuerdo"], "datos": "boleros, baladas, la XEW"},
+    {"id": 16, "titulo": "Vacaciones de verano sin celular", "formato": "F3", "estacional": "verano"},
+    {"id": 17, "titulo": "Las escuelas de antes: uniforme, gis y la regla", "formato": "F5"},
+    {"id": 18, "titulo": "Así se veía [ciudad] hace 50 años", "formato": "F4", "fuentes": ["fototecas", "@fotos.antiguas.ba"], "nota": "formato antes/ahora muy viral"},
+    {"id": 19, "titulo": "La historia detrás del Gansito, Chocomilk y las marcas", "formato": "F2", "datos": "Gansito 1957, Pancho Pantera 1959"},
+    {"id": 20, "titulo": "Costumbres perdidas: la sobremesa, la visita del domingo", "formato": "F2"}
+  ]
+}

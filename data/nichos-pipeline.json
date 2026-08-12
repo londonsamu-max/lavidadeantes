@@ -1,0 +1,26 @@
+{
+  "actualizado": "2026-07-22",
+  "validados": [
+    {
+      "slug": "la-vida-de-antes",
+      "nicho": "Habilidades olvidadas + nostalgia hispana (fusión)",
+      "score": "27/30",
+      "fecha_validacion": "2026-07-22",
+      "evidencia": "Triple investigación + verificación directa. Referencias: @ForgottenAmericanSurvival (4 meses, 440K/mes), @ForgottenAmericanSkills, @vintagelifestyleusa (techo ~1M/mes)",
+      "estado": "en_produccion",
+      "canal_youtube": "pendiente de crear"
+    }
+  ],
+  "candidatos_futuros": [
+    {"nicho": "Historia para dormir en español", "nota": "Volúmenes validados (0.8-1.1M/mes videos 2-3h) pero nicho más vigilado por YouTube. Candidato para canal #2 si se hace con guion original riguroso", "score_preliminar": "pendiente FASE 2-4"},
+    {"nicho": "Biografías de figuras hispanas clásicas", "nota": "Evidencia indirecta fuerte (nostalgia + profundidad). Falta validación 4 filtros", "score_preliminar": "pendiente"},
+    {"nicho": "Oficios y vida de barrio por décadas", "nota": "Extensión natural del canal 1 — podría ser canal hermano con voz e identidad distintas", "score_preliminar": "pendiente"}
+  ],
+  "descartados": [
+    {"nicho": "Contenido para niños pequeños", "razon": "COPPA + máximo escrutinio + RPM bajo + ético", "fecha": "2026-07-22"},
+    {"nicho": "Viejo Oeste narrado", "razon": "FASE 2 lo mató: ningún canal nuevo llega a 500K/mes, varios en declive", "fecha": "2026-07-22"},
+    {"nicho": "Salud/finanzas con voz IA", "razon": "Política YouTube 16-jul-2026: no monetizable", "fecha": "2026-07-22"},
+    {"nicho": "Religioso masivo automatizado", "razon": "Purga ene-2026 (Imperio de Jesús eliminado)", "fecha": "2026-07-22"},
+    {"nicho": "Drama familiar/venganza", "razon": "FASE 3: audiencia real es mujeres 25-45, no 50+; alta mortalidad", "fecha": "2026-07-22"}
+  ]
+}

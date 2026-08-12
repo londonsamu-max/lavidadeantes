@@ -1,0 +1,600 @@
+{
+  "etiqueta": "mitologia",
+  "consultas": [
+    "leyendas mexicanas animadas",
+    "mitos y leyendas latinoamericanas historia",
+    "leyendas de terror animadas español"
+  ],
+  "canales": [
+    {
+      "canal": "Beth Cast",
+      "id": "UCKnKiQsPdou6Nj0ig5VmPaw",
+      "creado": "2020-08-21",
+      "subs": 3550000,
+      "vistas_totales": 1671686904,
+      "videos": 885,
+      "vistas_por_video": 1888912,
+      "videos_por_mes": 12.4,
+      "vistas_por_mes": 23462272,
+      "meses_activo": 71
+    },
+    {
+      "canal": "Glenn - Sector del Terror",
+      "id": "UCMKxkP7nqUukDti9c2hEAIg",
+      "creado": "2023-01-18",
+      "subs": 485000,
+      "vistas_totales": 116720166,
+      "videos": 420,
+      "vistas_por_video": 277905,
+      "videos_por_mes": 9.9,
+      "vistas_por_mes": 2759170,
+      "meses_activo": 42
+    },
+    {
+      "canal": "El Ultimo Plano",
+      "id": "UCRHzIQRuFSYRY-hB2gCHcvw",
+      "creado": "2025-04-30",
+      "subs": 34300,
+      "vistas_totales": 44218820,
+      "videos": 165,
+      "vistas_por_video": 267993,
+      "videos_por_mes": 11.1,
+      "vistas_por_mes": 2967444,
+      "meses_activo": 15
+    },
+    {
+      "canal": "Arandano 13 (Animado)",
+      "id": "UCsWI7Ds6irx2Bc0e-xQ9ntA",
+      "creado": "2026-02-10",
+      "subs": 83700,
+      "vistas_totales": 8885997,
+      "videos": 55,
+      "vistas_por_video": 161564,
+      "videos_por_mes": 10.0,
+      "vistas_por_mes": 1617571,
+      "meses_activo": 5
+    },
+    {
+      "canal": "Crismery RD",
+      "id": "UC4EJhyd40mvx0OLG2Ol2GLA",
+      "creado": "2019-03-22",
+      "subs": 41800,
+      "vistas_totales": 7497491,
+      "videos": 86,
+      "vistas_por_video": 87180,
+      "videos_por_mes": 1.0,
+      "vistas_por_mes": 84919,
+      "meses_activo": 88
+    },
+    {
+      "canal": "Batallas de Leyendas",
+      "id": "UCdwWAM_wcL894OKrq7DmrMA",
+      "creado": "2011-11-05",
+      "subs": 13200,
+      "vistas_totales": 1018368,
+      "videos": 22,
+      "vistas_por_video": 46289,
+      "videos_por_mes": 0.1,
+      "vistas_por_mes": 5756,
+      "meses_activo": 177
+    },
+    {
+      "canal": "JOSANS",
+      "id": "UCi__P7rJivkUV9p8F1VNi9A",
+      "creado": "2011-06-05",
+      "subs": 29800,
+      "vistas_totales": 9548204,
+      "videos": 540,
+      "vistas_por_video": 17682,
+      "videos_por_mes": 3.0,
+      "vistas_por_mes": 52480,
+      "meses_activo": 182
+    },
+    {
+      "canal": "El Mundo de Abraham Julio",
+      "id": "UCP7dp4iJPZQwEoQc9vhGnlA",
+      "creado": "2023-12-23",
+      "subs": 8650,
+      "vistas_totales": 2379283,
+      "videos": 169,
+      "vistas_por_video": 14079,
+      "videos_por_mes": 5.4,
+      "vistas_por_mes": 76378,
+      "meses_activo": 31
+    },
+    {
+      "canal": "Generación 'SAN JUAN'",
+      "id": "UCn4d2YCNsJe1tCCFhiOMp6w",
+      "creado": "2026-03-13",
+      "subs": 304,
+      "vistas_totales": 39902,
+      "videos": 3,
+      "vistas_por_video": 13301,
+      "videos_por_mes": 0.7,
+      "vistas_por_mes": 8919,
+      "meses_activo": 4
+    },
+    {
+      "canal": "El 23",
+      "id": "UChhyrxyeD-6Lrv2nYme0KPQ",
+      "creado": "2025-01-23",
+      "subs": 719,
+      "vistas_totales": 262725,
+      "videos": 39,
+      "vistas_por_video": 6737,
+      "videos_por_mes": 2.2,
+      "vistas_por_mes": 14522,
+      "meses_activo": 18
+    },
+    {
+      "canal": "JDV DarKS",
+      "id": "UCMKqFGSEONe7E6sNuVYNwQw",
+      "creado": "2025-03-31",
+      "subs": 4140,
+      "vistas_totales": 761016,
+      "videos": 126,
+      "vistas_por_video": 6040,
+      "videos_por_mes": 7.9,
+      "vistas_por_mes": 47898,
+      "meses_activo": 16
+    },
+    {
+      "canal": "Sandrés_art",
+      "id": "UCuYhcZolLhiUvWaM9CSYZdA",
+      "creado": "2025-12-02",
+      "subs": 34,
+      "vistas_totales": 22771,
+      "videos": 7,
+      "vistas_por_video": 3253,
+      "videos_por_mes": 0.9,
+      "vistas_por_mes": 2921,
+      "meses_activo": 8
+    },
+    {
+      "canal": "El COMIC-KERO",
+      "id": "UCoKdsm31pKADnS4VplC8y9w",
+      "creado": "2026-01-28",
+      "subs": 412,
+      "vistas_totales": 149660,
+      "videos": 75,
+      "vistas_por_video": 1995,
+      "videos_por_mes": 12.7,
+      "vistas_por_mes": 25276,
+      "meses_activo": 6
+    },
+    {
+      "canal": "Sushi  🦇",
+      "id": "UCfRqhITUb1JPRGejrZfdjZg",
+      "creado": "2026-05-05",
+      "subs": 489,
+      "vistas_totales": 41346,
+      "videos": 22,
+      "vistas_por_video": 1879,
+      "videos_por_mes": 8.1,
+      "vistas_por_mes": 15144,
+      "meses_activo": 3
+    },
+    {
+      "canal": "Terror Nocturn",
+      "id": "UCSHXCkORxy8Qwh45w8wwHMA",
+      "creado": "2026-05-14",
+      "subs": 76,
+      "vistas_totales": 13006,
+      "videos": 7,
+      "vistas_por_video": 1858,
+      "videos_por_mes": 2.9,
+      "vistas_por_mes": 5343,
+      "meses_activo": 2
+    },
+    {
+      "canal": "Logos boy ",
+      "id": "UC1v8Hi1oLZwEGsjd2R3vyAg",
+      "creado": "2022-04-23",
+      "subs": 732,
+      "vistas_totales": 998727,
+      "videos": 631,
+      "vistas_por_video": 1583,
+      "videos_por_mes": 12.3,
+      "vistas_por_mes": 19512,
+      "meses_activo": 51
+    },
+    {
+      "canal": "DVSvisual",
+      "id": "UCyqyUXdnhFQfQmY6Xwa1LiQ",
+      "creado": "2026-01-30",
+      "subs": 241,
+      "vistas_totales": 301876,
+      "videos": 206,
+      "vistas_por_video": 1465,
+      "videos_por_mes": 35.2,
+      "vistas_por_mes": 51556,
+      "meses_activo": 6
+    },
+    {
+      "canal": "DRAGON_TAQUITOS_8",
+      "id": "UCLPzyAVrRFHY8ZelC3kWwUA",
+      "creado": "2026-03-23",
+      "subs": 78,
+      "vistas_totales": 38658,
+      "videos": 32,
+      "vistas_por_video": 1208,
+      "videos_por_mes": 7.7,
+      "vistas_por_mes": 9327,
+      "meses_activo": 4
+    },
+    {
+      "canal": "cinemahype",
+      "id": "UC6Wv6fypa3ypNHxKLSM1ibw",
+      "creado": "2023-05-17",
+      "subs": 703,
+      "vistas_totales": 458807,
+      "videos": 446,
+      "vistas_por_video": 1029,
+      "videos_por_mes": 11.6,
+      "vistas_por_mes": 11952,
+      "meses_activo": 38
+    },
+    {
+      "canal": "Realidad Secreta",
+      "id": "UCIQfzynmxcvEBE0NC5_Ue5w",
+      "creado": "2026-05-22",
+      "subs": 220,
+      "vistas_totales": 51526,
+      "videos": 55,
+      "vistas_por_video": 937,
+      "videos_por_mes": 25.3,
+      "vistas_por_mes": 23733,
+      "meses_activo": 2
+    },
+    {
+      "canal": "ruta-salvaje ",
+      "id": "UC-WXpYaubPOye56pgBWmCsw",
+      "creado": "2020-07-02",
+      "subs": 30,
+      "vistas_totales": 21438,
+      "videos": 23,
+      "vistas_por_video": 932,
+      "videos_por_mes": 0.3,
+      "vistas_por_mes": 294,
+      "meses_activo": 73
+    },
+    {
+      "canal": "Noza Creative Studios",
+      "id": "UCwJbGZUCRBBIWfGP1x_o7Fw",
+      "creado": "2026-05-19",
+      "subs": 75,
+      "vistas_totales": 20909,
+      "videos": 23,
+      "vistas_por_video": 909,
+      "videos_por_mes": 10.1,
+      "vistas_por_mes": 9212,
+      "meses_activo": 2
+    },
+    {
+      "canal": "Lebretoner",
+      "id": "UCmLA-ZuG2KGYJGYymGIrR2w",
+      "creado": "2020-12-20",
+      "subs": 487,
+      "vistas_totales": 226377,
+      "videos": 265,
+      "vistas_por_video": 854,
+      "videos_por_mes": 3.9,
+      "vistas_por_mes": 3365,
+      "meses_activo": 67
+    },
+    {
+      "canal": "¿Sabias Esto?",
+      "id": "UCsjGka9sO8po8xizC5iRhAg",
+      "creado": "2026-05-15",
+      "subs": 441,
+      "vistas_totales": 47744,
+      "videos": 69,
+      "vistas_por_video": 692,
+      "videos_por_mes": 28.7,
+      "vistas_por_mes": 19882,
+      "meses_activo": 2
+    },
+    {
+      "canal": "Horror Virales",
+      "id": "UCZMxRk9Rb5EyCV9Z4DEdY3w",
+      "creado": "2026-04-21",
+      "subs": 221,
+      "vistas_totales": 50289,
+      "videos": 98,
+      "vistas_por_video": 513,
+      "videos_por_mes": 30.7,
+      "vistas_por_mes": 15761,
+      "meses_activo": 3
+    },
+    {
+      "canal": "OK NOVA",
+      "id": "UCoDmGQKB_Y8FGmkuP0VcnXw",
+      "creado": "2025-03-08",
+      "subs": 641,
+      "vistas_totales": 346199,
+      "videos": 1111,
+      "vistas_por_video": 312,
+      "videos_por_mes": 66.7,
+      "vistas_por_mes": 20799,
+      "meses_activo": 17
+    },
+    {
+      "canal": "Michelle DeJesus",
+      "id": "UCPgymsYFGfl1mjjmmlZZbMA",
+      "creado": "2021-12-12",
+      "subs": 527,
+      "vistas_totales": 189591,
+      "videos": 660,
+      "vistas_por_video": 287,
+      "videos_por_mes": 11.9,
+      "vistas_por_mes": 3414,
+      "meses_activo": 56
+    },
+    {
+      "canal": "América Mística",
+      "id": "UCIKPVQv94v9JMNkB1fIlksQ",
+      "creado": "2009-03-25",
+      "subs": 34,
+      "vistas_totales": 4489,
+      "videos": 26,
+      "vistas_por_video": 173,
+      "videos_por_mes": 0.1,
+      "vistas_por_mes": 22,
+      "meses_activo": 208
+    },
+    {
+      "canal": "DuermeProfundo Historias",
+      "id": "UCMBzkIuXAnVOU1NrvFtAPKw",
+      "creado": "2023-02-15",
+      "subs": 1,
+      "vistas_totales": 18,
+      "videos": 6,
+      "vistas_por_video": 3,
+      "videos_por_mes": 0.1,
+      "vistas_por_mes": 0,
+      "meses_activo": 41
+    }
+  ],
+  "top_videos": [
+    {
+      "titulo": "Las leyendas mitológicas de LATAM están ROTÍSIMAS 🤯",
+      "canal": "Beth Cast",
+      "vistas": 7045206,
+      "publicado": "2026-05-15",
+      "duracion": "PT2M49S",
+      "consulta": "mitos y leyendas latinoamericanas historia"
+    },
+    {
+      "titulo": "3 historias de terror en HOSPITALES (Animadas) | Arándano 13",
+      "canal": "Arandano 13 (Animado)",
+      "vistas": 184869,
+      "publicado": "2026-05-22",
+      "duracion": "PT35M37S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "La pelicula animada MAS ATERRADORA #leyendas #animación",
+      "canal": "El Ultimo Plano",
+      "vistas": 128657,
+      "publicado": "2026-06-04",
+      "duracion": "PT1M5S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "6 HISTORIAS de TERROR en PUEBLOS y CAMINOS RURALES Vol. 12",
+      "canal": "Glenn - Sector del Terror",
+      "vistas": 97922,
+      "publicado": "2026-07-10",
+      "duracion": "PT59M39S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "¿La Saga de las Leyendas es para Niños? #lasleyendas #terrorinfantil #lasleyenda",
+      "canal": "El Mundo de Abraham Julio",
+      "vistas": 96515,
+      "publicado": "2026-06-29",
+      "duracion": "PT43S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "Soy leyenda (2007) Película Completa en Español | Película de Acción | Datos & E",
+      "canal": "Crismery RD",
+      "vistas": 62219,
+      "publicado": "2026-06-28",
+      "duracion": "PT1H28M46S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "La Cronología de las Leyendas #lasleyendas #lasleyendasfans #cronologia #pelicul",
+      "canal": "El Mundo de Abraham Julio",
+      "vistas": 56689,
+      "publicado": "2026-07-12",
+      "duracion": "PT1M2S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "¿Cuál es Mejor? ¿El Chavo Animado o las Leyendas? #elchavoanimado #lasleyendas #",
+      "canal": "El Mundo de Abraham Julio",
+      "vistas": 53339,
+      "publicado": "2026-06-16",
+      "duracion": "PT1M28S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "¿Quien es el Charro Negro? #elcharronegro #lasleyendas #lasleyendasfans #pelicul",
+      "canal": "El Mundo de Abraham Julio",
+      "vistas": 52384,
+      "publicado": "2026-06-11",
+      "duracion": "PT1M24S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "Avatar: La leyenda de Aang Temporada 2 (2026) Película Completa en Español | Dat",
+      "canal": "Crismery RD",
+      "vistas": 41008,
+      "publicado": "2026-07-05",
+      "duracion": "PT1H41M52S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "¿Por que 'Las Leyendas' es La MEJOR FRANQUICIA de Películas Animadas Mexicanas? ",
+      "canal": "Generación 'SAN JUAN'",
+      "vistas": 34746,
+      "publicado": "2026-06-01",
+      "duracion": "PT3M",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "Sor Pablita vs Brujas de Catemaco ",
+      "canal": "Batallas de Leyendas",
+      "vistas": 11870,
+      "publicado": "2026-05-20",
+      "duracion": "PT10M25S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "4 Historias de Terror PERTURBADOR... Te Dejarán sin DORMIR !!  -  Terror Animado",
+      "canal": "JDV DarKS",
+      "vistas": 11040,
+      "publicado": "2026-06-04",
+      "duracion": "PT26M11S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "¿CONOCÍAS LA LEYENDA DE LA NAHUALA? #shorts     #viralshorts     #mexico",
+      "canal": "El 23",
+      "vistas": 6088,
+      "publicado": "2026-05-16",
+      "duracion": "PT28S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "¡DE LA NAHUALA AL CHARRO NEGRO! Nuestra Infancia en UN VIDEO",
+      "canal": "Generación 'SAN JUAN'",
+      "vistas": 4950,
+      "publicado": "2026-05-27",
+      "duracion": "PT11M4S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "la Jarjacha 🇵🇪🇵🇪 #críptido #leyendas #latinoamerica #mitos #peru #misterio #mito",
+      "canal": "Sushi  🦇",
+      "vistas": 3102,
+      "publicado": "2026-06-04",
+      "duracion": "PT1M59S",
+      "consulta": "mitos y leyendas latinoamericanas historia"
+    },
+    {
+      "titulo": "👻La LEYENDA de las MOMIAS de GUANAJUATO😱 #lasleyendas #momias #animación #méxico",
+      "canal": "El COMIC-KERO",
+      "vistas": 2811,
+      "publicado": "2026-05-10",
+      "duracion": "PT2M21S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "👻La LEYENDA de la LLORONA😱/RESUMEN/ #lasleyendas #animación #méxico #lallorona",
+      "canal": "El COMIC-KERO",
+      "vistas": 2760,
+      "publicado": "2026-05-03",
+      "duracion": "PT2M25S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "¿CONOCÍAS LA LEYENDA DE LA LLORONA? #shorts      #viralshorts      #mexico",
+      "canal": "El 23",
+      "vistas": 2696,
+      "publicado": "2026-05-16",
+      "duracion": "PT28S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "El dzulum 🇲🇽🇲🇽 #críptido #leyendas #latinoamerica #misterio #mexico #mitos",
+      "canal": "Sushi  🦇",
+      "vistas": 2531,
+      "publicado": "2026-06-03",
+      "duracion": "PT1M37S",
+      "consulta": "mitos y leyendas latinoamericanas historia"
+    },
+    {
+      "titulo": "ADEUDOS en la animación MEXICANA",
+      "canal": "cinemahype",
+      "vistas": 2024,
+      "publicado": "2026-05-27",
+      "duracion": "PT27S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "la leyenda de el nachito(leyenda mexicana)#terrorymisterio #historias #animation",
+      "canal": "DRAGON_TAQUITOS_8",
+      "vistas": 1674,
+      "publicado": "2026-05-04",
+      "duracion": "PT1M17S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "Regresos Épicos Leyendas de México 🇲🇽",
+      "canal": "Lebretoner",
+      "vistas": 1590,
+      "publicado": "2026-06-06",
+      "duracion": "PT18S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "POV: Vives en la sierra de México ...#animación  #Mexico  #LeyendasMexicanas  #N",
+      "canal": "Sandrés_art",
+      "vistas": 1251,
+      "publicado": "2026-05-28",
+      "duracion": "PT1M4S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "el PAYASO ya sabe que SI 🤫🤡🥶",
+      "canal": "DVSvisual",
+      "vistas": 1209,
+      "publicado": "2026-07-18",
+      "duracion": "PT5S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "Y si ves a LA PATASOLA? # #sabiasesto #viral #shorts #mitos #leyendas #miedo #hi",
+      "canal": "¿Sabias Esto?",
+      "vistas": 738,
+      "publicado": "2026-07-10",
+      "duracion": "PT1M54S",
+      "consulta": "mitos y leyendas latinoamericanas historia"
+    },
+    {
+      "titulo": "2 - “La Estación Donde Nadie Debe Bajar | Leyenda Mexicana Real”",
+      "canal": "OK NOVA",
+      "vistas": 553,
+      "publicado": "2026-06-02",
+      "duracion": "PT1M16S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "#miedo#fpy#parati#leyendasmexicanas#ruta-salvaje.                     like para ",
+      "canal": "ruta-salvaje ",
+      "vistas": 444,
+      "publicado": "2026-05-21",
+      "duracion": "PT34S",
+      "consulta": "leyendas mexicanas animadas"
+    },
+    {
+      "titulo": "La Dama Bailarina de Serbia | Historia de Terror Corta | Animada",
+      "canal": "Terror Nocturn",
+      "vistas": 388,
+      "publicado": "2026-07-13",
+      "duracion": "PT42S",
+      "consulta": "leyendas de terror animadas español"
+    },
+    {
+      "titulo": "LEYENDAS de MÉXICO que te quitarán el sueño 👻🇲🇽",
+      "canal": "Noza Creative Studios",
+      "vistas": 270,
+      "publicado": "2026-05-28",
+      "duracion": "PT41S",
+      "consulta": "leyendas mexicanas animadas"
+    }
+  ]
+}

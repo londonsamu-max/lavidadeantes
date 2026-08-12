@@ -1,0 +1,252 @@
+{
+  "etiqueta": "animales",
+  "consultas": [
+    "animales animados historia perro gato",
+    "caricatura animales aventura español",
+    "historia animada de un perrito"
+  ],
+  "canales": [
+    {
+      "canal": "KokunExtra",
+      "id": "UC7uNtR_9_bK-YCdhFbUZqIA",
+      "creado": "2016-06-21",
+      "subs": 5140000,
+      "vistas_totales": 1872245585,
+      "videos": 3645,
+      "vistas_por_video": 513648,
+      "videos_por_mes": 30.0,
+      "vistas_por_mes": 15432827,
+      "meses_activo": 121
+    },
+    {
+      "canal": "Cuentos para Compartir",
+      "id": "UCTay4QzekDPzIem8qhCreug",
+      "creado": "2024-12-17",
+      "subs": 1650000,
+      "vistas_totales": 124166040,
+      "videos": 629,
+      "vistas_por_video": 197402,
+      "videos_por_mes": 32.6,
+      "vistas_por_mes": 6430405,
+      "meses_activo": 19
+    },
+    {
+      "canal": "Energia Plus Familia",
+      "id": "UC4jAg116O8DiPNJb-pRcb1Q",
+      "creado": "2026-04-16",
+      "subs": 4690,
+      "vistas_totales": 2401104,
+      "videos": 20,
+      "vistas_por_video": 120055,
+      "videos_por_mes": 6.0,
+      "vistas_por_mes": 715623,
+      "meses_activo": 3
+    },
+    {
+      "canal": "Gazoon - Español",
+      "id": "UCXSRTvwtMBSRGbP-e5QptvQ",
+      "creado": "2022-09-08",
+      "subs": 17700,
+      "vistas_totales": 7450387,
+      "videos": 513,
+      "vistas_por_video": 14523,
+      "videos_por_mes": 11.0,
+      "vistas_por_mes": 159726,
+      "meses_activo": 47
+    },
+    {
+      "canal": "Chistes IA",
+      "id": "UCy3gT6-UwRP4AeDeS8vYrpA",
+      "creado": "2025-06-24",
+      "subs": 12000,
+      "vistas_totales": 2201910,
+      "videos": 351,
+      "vistas_por_video": 6273,
+      "videos_por_mes": 26.8,
+      "vistas_por_mes": 168186,
+      "meses_activo": 13
+    },
+    {
+      "canal": "Listen And Learn English",
+      "id": "UCgwA9MRczu2bPlAjqNdkM_Q",
+      "creado": "2025-06-06",
+      "subs": 2250,
+      "vistas_totales": 186088,
+      "videos": 37,
+      "vistas_por_video": 5029,
+      "videos_por_mes": 2.7,
+      "vistas_por_mes": 13599,
+      "meses_activo": 14
+    },
+    {
+      "canal": "Historias y Relatos con Tita",
+      "id": "UCHdNZ66ngWZ17QylduJ4vgg",
+      "creado": "2025-09-04",
+      "subs": 703,
+      "vistas_totales": 191290,
+      "videos": 199,
+      "vistas_por_video": 961,
+      "videos_por_mes": 18.6,
+      "vistas_por_mes": 17838,
+      "meses_activo": 11
+    },
+    {
+      "canal": "Cuentos de Jane Infantiles",
+      "id": "UCp3fPsoRMZG2idyW9bhMn6w",
+      "creado": "2025-11-10",
+      "subs": 86,
+      "vistas_totales": 24461,
+      "videos": 45,
+      "vistas_por_video": 544,
+      "videos_por_mes": 5.3,
+      "vistas_por_mes": 2871,
+      "meses_activo": 9
+    },
+    {
+      "canal": "ANIMATION PK ",
+      "id": "UCC7oUVPCbyDrcatMCp9l7Rg",
+      "creado": "2021-10-03",
+      "subs": 1150,
+      "vistas_totales": 119321,
+      "videos": 222,
+      "vistas_por_video": 537,
+      "videos_por_mes": 3.8,
+      "vistas_por_mes": 2063,
+      "meses_activo": 58
+    },
+    {
+      "canal": "SOY MARTIN ",
+      "id": "UCldZC_kfGb__RiGTjeUbGJQ",
+      "creado": "2026-06-22",
+      "subs": 35,
+      "vistas_totales": 6877,
+      "videos": 14,
+      "vistas_por_video": 491,
+      "videos_por_mes": 12.2,
+      "vistas_por_mes": 5973,
+      "meses_activo": 1
+    },
+    {
+      "canal": "TOTAL GAMER zone ",
+      "id": "UCkrr-3wr8SiyWE5XVy0UFVw",
+      "creado": "2021-11-19",
+      "subs": 1270,
+      "vistas_totales": 172714,
+      "videos": 573,
+      "vistas_por_video": 301,
+      "videos_por_mes": 10.2,
+      "vistas_por_mes": 3069,
+      "meses_activo": 56
+    },
+    {
+      "canal": "Neural",
+      "id": "UCKki8krnlIxpRYJsRnEl-gg",
+      "creado": "2026-07-17",
+      "subs": 4,
+      "vistas_totales": 14,
+      "videos": 9,
+      "vistas_por_video": 2,
+      "videos_por_mes": 9.0,
+      "vistas_por_mes": 14,
+      "meses_activo": 1
+    }
+  ],
+  "top_videos": [
+    {
+      "titulo": "Las Aventuras de Bailey: El Cachorro Perdido | Película Completa | Cine Familiar",
+      "canal": "Energia Plus Familia",
+      "vistas": 462744,
+      "publicado": "2026-06-05",
+      "duracion": "PT1H29M30S",
+      "consulta": "caricatura animales aventura español"
+    },
+    {
+      "titulo": "Este Perro Era Más Listo De Lo Que Pensaban 😱🐶",
+      "canal": "KokunExtra",
+      "vistas": 54122,
+      "publicado": "2026-06-20",
+      "duracion": "PT17S",
+      "consulta": "animales animados historia perro gato"
+    },
+    {
+      "titulo": "El perrito que no pudo subir al bus #shorts #shortsviral #pets #dogs #cats #humo",
+      "canal": "Cuentos para Compartir",
+      "vistas": 31830,
+      "publicado": "2026-05-21",
+      "duracion": "PT20S",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "Gazoon Español | Technicolor 🎨 | Aventuras Divertidas de Animales #shorts",
+      "canal": "Gazoon - Español",
+      "vistas": 2405,
+      "publicado": "2026-07-09",
+      "duracion": "PT55S",
+      "consulta": "caricatura animales aventura español"
+    },
+    {
+      "titulo": "Perros vs. Gatos: Dos realidades distintas 😂",
+      "canal": "Chistes IA",
+      "vistas": 623,
+      "publicado": "2026-05-12",
+      "duracion": "PT11S",
+      "consulta": "animales animados historia perro gato"
+    },
+    {
+      "titulo": "🐶 El Perrito Más Tierno del Mundo 🥹❤️",
+      "canal": "SOY MARTIN ",
+      "vistas": 233,
+      "publicado": "2026-06-23",
+      "duracion": "PT41S",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "🐶 The Lost Puppy | Heartwarming Animated Story ❤️ #shorts #moralstory #puppy #an",
+      "canal": "Listen And Learn English",
+      "vistas": 58,
+      "publicado": "2026-07-14",
+      "duracion": "PT1M",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "Perrito y gatito ayudan #disney #tiempodecuentos #historias #historiareal #anima",
+      "canal": "Historias y Relatos con Tita",
+      "vistas": 53,
+      "publicado": "2026-05-12",
+      "duracion": "PT1M57S",
+      "consulta": "animales animados historia perro gato"
+    },
+    {
+      "titulo": "Smart Dog Shopkeeper Serves Customer with Fresh Tomatoes 🐕🍅 | Heartwarming AI An",
+      "canal": "ANIMATION PK ",
+      "vistas": 9,
+      "publicado": "2026-07-16",
+      "duracion": "PT35S",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "The Boy Who Saved a Puppy 🐶❤️ | Emotional Cartoon Story | 3D Animated Short",
+      "canal": "TOTAL GAMER zone ",
+      "vistas": 3,
+      "publicado": "2026-07-09",
+      "duracion": "PT41S",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "🐶 El perrito que Cruzó un Portal Mágico | Película Animada  | Cuento infantil",
+      "canal": "Cuentos de Jane Infantiles",
+      "vistas": 2,
+      "publicado": "2026-07-13",
+      "duracion": "PT10M3S",
+      "consulta": "historia animada de un perrito"
+    },
+    {
+      "titulo": "#historia #animacion #parati #fyp",
+      "canal": "Neural",
+      "vistas": 0,
+      "publicado": "2026-07-20",
+      "duracion": "PT1M47S",
+      "consulta": "historia animada de un perrito"
+    }
+  ]
+}
