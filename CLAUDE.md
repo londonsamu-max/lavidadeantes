@@ -90,6 +90,7 @@ guion, para no regenerar 140 imágenes por un cambio de 30 segundos).
 - `docs/REGLAS-PRODUCCION-EVIDENCIA.md` — 26 reglas de guion/voz/visual/música basadas en evidencia académica (reminiscence bump 1965-1990, hooks cálido-curiosos, texto redundante en pantalla, 135-150 ppm, música -12dB). APLICAR EN CADA GUION
 - `docs/REGLAS-VIRALIZACION.md` — estructura y algoritmo 2026: bucles anidados, re-ganchos cada 2-3 min, rostros en miniaturas (69-80% de los breakout), sin capítulos en narrativo, pantalla final de 20s narrada, preguntas de memoria en comentarios, listas de reproducción, Test & Compare. APLICAR JUNTO CON las reglas de evidencia
 - `docs/STACK-VISUALES.md` — stack de generación visual (Gemini gratis, LOC dominio público, mflux local, Ideogram miniaturas) y tipografías
+- `docs/PROCEDIMIENTO-IMAGENES-FLOW.md` — cómo sacar las imágenes por Google Flow paso a paso (bloques → pegar → hojas de contactos → colocar). OBLIGATORIO leerlo antes de tocar Flow: lleva los límites que rompen el proceso y las trampas de su interfaz. Flow está geobloqueado en las sesiones remotas de Claude: este paso lo hace el humano desde su navegador
 
 ## FLUJO COMPLETO (un video de principio a fin)
 1. **Cerebro (Claude)**: consultar `data/registro-contenido.json` (formato/hook/temas siguientes) → crear `output/<slug>/` con `guion.txt` + `visuales.json` + `metadata.json` (titulo, descripcion con atribución de música CC-BY + declaración IA, tags, miniatura{imagen, texto con | para saltos de línea})
