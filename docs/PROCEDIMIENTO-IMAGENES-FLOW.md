@@ -1,10 +1,36 @@
 # Imágenes del video con Google Flow — procedimiento
 
-> Para el Claude que abra este repositorio en otro computador. Es el paso que **no**
-> puede hacerse desde una sesión remota: Flow está geobloqueado en los servidores
-> donde corre Claude Code en la nube (verificado el 12-ago-2026: `labs.google/fx`
-> carga, pero al entrar a la herramienta expulsa a `labs.google/`). Desde el
-> navegador del usuario funciona con normalidad.
+> Para el Claude que abra este repositorio en otro computador — o para el de la
+> sesión remota, si algún día se resuelve lo de la cuenta (ver más abajo).
+
+## Se puede manejar Flow desde una sesión remota, pero depende de la CUENTA
+
+Medido el 12-ago-2026 desde un contenedor de Claude Code en la nube:
+
+- La **IP de salida es de Estados Unidos** (Columbus, Ohio, Google Cloud), país
+  donde Flow sí opera. **No es un bloqueo de la máquina.**
+- El navegador **sí llega**: Chromium con las cookies de Google carga la portada
+  y AI Studio entra autenticado sin problema.
+- Pero al entrar a la herramienta, Flow expulsa. Forzando el idioma con
+  `?hl=en` deja de dar rodeos y redirige a una página que se llama literalmente
+  **`labs.google/fx/tools/flow/unsupported-country`**.
+- Con locale `es-MX` en el navegador ni siquiera se llega ahí: Google redirige
+  antes a `/fx/es-419/tools/flow` y de ahí a la portada. El idioma lo decide la
+  **cuenta**, no el navegador — usar `?hl=en` o `/fx/en/tools/flow` lo evita.
+
+La conclusión: con IP estadounidense y sesión válida, lo único que queda para
+explicar el rechazo es el **país de la cuenta de Google**. Coincide con que Flow
+solo acepta `lavidadeantes.oficial@gmail.com` y rechaza la otra cuenta del
+canal, y con que la API de Gemini responde `429 prepayment credits depleted` a
+esa misma cuenta (el nivel gratuito no se ofrece en todos los países).
+
+**Prueba de un minuto para saber si ya se puede automatizar desde la nube:**
+cargar `https://labs.google/fx/tools/flow/project?hl=en` con las cookies de la
+cuenta que SÍ tiene Flow. Si no aterriza en `unsupported-country`, todo lo que
+sigue puede hacerlo Claude sin intervención humana.
+
+Mientras eso no ocurra, este es el procedimiento manual desde el navegador del
+usuario.
 
 ## Por qué Flow y no el generador gratuito
 
