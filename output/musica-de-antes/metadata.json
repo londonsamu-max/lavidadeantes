@@ -10,8 +10,8 @@
   "texto": "¿SE ACUERDA|DE ESTE MUEBLE?|*LA MÚSICA DE ANTES"
  },
  "miniatura_rostro": {
-  "prompt": "expressive painted portrait, face of a mexican man in his late sixties with grey moustache, delighted nostalgic smile with raised eyebrows, one hand resting on the open lid of a large wooden console record player beside him, warm living room light, plain warm background",
-  "semilla": 147,
-  "comando": "python3 pipeline/imagen.py \"<prompt>\" output/musica-de-antes/miniatura-rostro.jpg --semilla 147"
+  "prompt": "expressive painted portrait, face of a mexican man in his late sixties with grey moustache, huge delighted open-mouth smile of joyful surprise, deep laugh lines, eyes wide with wonder and nostalgia, head slightly tilted, one hand on the polished wooden lid of a vintage console record player, warm golden living room light",
+  "semilla": 148,
+  "nota": "producido 12-ago en sesión remota. miniatura.jpg = rostro 148; miniatura-v152.jpg = variante tierna (rostro 152, semilla 152) para Test & Compare"
  }
 }

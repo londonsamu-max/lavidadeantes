@@ -9,6 +9,9 @@ output/*/*
 !output/*/guion.txt
 !output/*/visuales.json
 !output/*/metadata.json
+!output/*/miniatura*.jpg
+!output/*/timing.json
+!output/*/subtitulos.srt
 
 # Entorno y basura del sistema
 .venv/
