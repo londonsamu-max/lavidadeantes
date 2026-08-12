@@ -3,34 +3,31 @@
 > Para el Claude que abra este repositorio en otro computador — o para el de la
 > sesión remota, si algún día se resuelve lo de la cuenta (ver más abajo).
 
-## Se puede manejar Flow desde una sesión remota, pero depende de la CUENTA
+## Flow NO se puede manejar desde una sesión remota. Y no es cosa de la cuenta
 
 Medido el 12-ago-2026 desde un contenedor de Claude Code en la nube:
 
-- La **IP de salida es de Estados Unidos** (Columbus, Ohio, Google Cloud), país
-  donde Flow sí opera. **No es un bloqueo de la máquina.**
-- El navegador **sí llega**: Chromium con las cookies de Google carga la portada
-  y AI Studio entra autenticado sin problema.
-- Pero al entrar a la herramienta, Flow expulsa. Forzando el idioma con
-  `?hl=en` deja de dar rodeos y redirige a una página que se llama literalmente
-  **`labs.google/fx/tools/flow/unsupported-country`**.
-- Con locale `es-MX` en el navegador ni siquiera se llega ahí: Google redirige
-  antes a `/fx/es-419/tools/flow` y de ahí a la portada. El idioma lo decide la
-  **cuenta**, no el navegador — usar `?hl=en` o `/fx/en/tools/flow` lo evita.
+- Cargar `https://labs.google/fx/tools/flow/project?hl=en` **sin ninguna cookie,
+  sin cuenta**, redirige a **`labs.google/fx/tools/flow/unsupported-country`**.
+  El rechazo ocurre antes de que haya sesión: **ninguna cuenta lo arregla**, y no
+  tiene sentido exportar cookies de otra cuenta para intentarlo.
+- La IP de salida es de Columbus, Ohio, Estados Unidos — pero de un rango de
+  Google Cloud. Un país donde Flow opera y aun así rechaza: lo que no acepta es
+  el tipo de red, no el país del usuario.
+- Lo que sí funciona desde aquí: el navegador carga la portada de Flow, y **AI
+  Studio entra autenticado** con las cookies de Google sin ningún problema. Así
+  que el contenedor no está aislado de Google; es Flow en concreto quien cierra.
+- Trampa aparte que cuesta una tarde: con locale `es-MX` en el navegador ni
+  siquiera se llega a esa página, porque Google redirige antes a
+  `/fx/es-419/tools/flow` y de ahí a la portada. Parece un fallo de sesión y no
+  lo es. Con `?hl=en` o `/fx/en/tools/flow` se ve el mensaje real.
 
-La conclusión: con IP estadounidense y sesión válida, lo único que queda para
-explicar el rechazo es el **país de la cuenta de Google**. Coincide con que Flow
-solo acepta `lavidadeantes.oficial@gmail.com` y rechaza la otra cuenta del
-canal, y con que la API de Gemini responde `429 prepayment credits depleted` a
-esa misma cuenta (el nivel gratuito no se ofrece en todos los países).
+**Prueba de un minuto** para saber si algún día cambia (por ejemplo, si la sesión
+remota pasa a salir por otra red): cargar esa URL sin cookies. Si no aterriza en
+`unsupported-country`, entonces sí se puede automatizar todo lo que sigue.
 
-**Prueba de un minuto para saber si ya se puede automatizar desde la nube:**
-cargar `https://labs.google/fx/tools/flow/project?hl=en` con las cookies de la
-cuenta que SÍ tiene Flow. Si no aterriza en `unsupported-country`, todo lo que
-sigue puede hacerlo Claude sin intervención humana.
-
-Mientras eso no ocurra, este es el procedimiento manual desde el navegador del
-usuario.
+Hasta entonces, este paso lo hace el humano desde su navegador. Y la única vía
+realmente automatizable es una API de imágenes (ver el final del documento).
 
 ## Por qué Flow y no el generador gratuito
 
