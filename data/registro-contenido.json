@@ -88,7 +88,8 @@
    "hook": "H2-dato-incompleto",
    "titulo": "16 millones de libros: así era la escuela de los años 70",
    "video_id": null,
-   "nota": "backfill 12-ago desde miniaturas.json. Producido, SIN PUBLICAR. Formato/hook estimados por el título y el banco de temas (id 17). items en items_a_registrar_tras_publicar para no dar ROJO falso si se re-corre el quality_gate sobre su propio guion",
+   "estado": "PUBLICADO (confirmado por el canal el 12-ago-2026; falta anotar el video_id)",
+   "nota": "backfill 12-ago desde miniaturas.json. Formato/hook estimados por el título y el banco de temas (id 17). items en items_a_registrar_tras_publicar para no dar ROJO falso si se re-corre el quality_gate sobre su propio guion",
    "items_a_registrar_tras_publicar": ["uniforme escolar", "gis", "pizarrón", "libros de texto gratuitos", "calificación de conducta"]
   },
   {
