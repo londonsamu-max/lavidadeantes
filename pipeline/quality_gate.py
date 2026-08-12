@@ -43,10 +43,23 @@ PROMESA = (
     r"hoy vamos|aquí va|se lo voy a|le va a quedar|para que no se la pierda|"
     r"no se la pierda|al final de este video)\b"
 )
+# El freno tiene que frenar AL ESPECTADOR. «Todavía no pasa nadie» o «antes de
+# que amanezca» son ambiente, no freno: se exige la forma dirigida a la persona.
 FRENO = (
-    r"\b(espere|espérese|pare|un momento|no se me vaya|no se vaya|"
-    r"antes de que|no saque|todavía no|deténgase)\b"
+    r"\b(espere|espérese|espéreme|no se me vaya|no se vaya|deténgase|aguarde|"
+    r"quédese|no saque|todavía no se vaya|antes de que se vaya|"
+    r"antes de que (me )?diga|un momento)\b"
 )
+# El arranque tiene que hablarLE al espectador, no describir un ambiente.
+# Video 3 («Son las seis y media de la mañana...») retuvo 9,4%; los que abren
+# dirigiéndose a la persona retienen 20-28%. Marcadores de 2ª persona formal.
+SEGUNDA_PERSONA = (
+    r"¿|\b(usted|ustedes|imagínese|fíjese|acuérdese|recuerde|mire|oiga|piense|"
+    r"se acuerda|le voy|le digo|le va|le tengo|dígame|su casa|su calle|su barrio)\b"
+)
+# «Pedir suscripción al inicio: el error de mayor coste» (REGLAS-VIRALIZACION).
+# Solo después del minuto 10. A 145 ppm, 10 min ≈ 1.450 palabras.
+PALABRAS_10_MIN = 1450
 DUR_MIN_S, DUR_MAX_S = 18 * 60, 32 * 60
 MIN_IMGS_SECCION = 4
 MAX_SOLAPE_TEMAS = 3
@@ -101,9 +114,37 @@ def main():
         if not re.search(PROMESA, arranque, re.IGNORECASE):
             fallos.append("ARRANQUE sin promesa explícita: no dice qué va a recibir "
                           "el espectador si se queda")
+        # El freno era aviso y por ahí se coló el video 3 (9,4% de retención):
+        # cumplía dato y promesa. La REGLA DURA pide las TRES cosas, y el único
+        # video que retuvo bien (28%) llevaba las tres. Ahora es fallo.
         if not re.search(FRENO, arranque, re.IGNORECASE):
-            avisos.append("ARRANQUE sin freno («espere», «no se me vaya», «antes de "
-                          "que...»): el patrón que mejor retuvo lo llevaba")
+            fallos.append("ARRANQUE sin freno («espere», «no se me vaya», «antes de "
+                          "que...»): el único arranque que retuvo bien lo llevaba")
+        if not re.search(SEGUNDA_PERSONA, arranque, re.IGNORECASE):
+            avisos.append("ARRANQUE contemplativo: los primeros 30 s no se dirigen "
+                          "al espectador (ni «usted», ni pregunta, ni «fíjese»). "
+                          "Así abría el video 3 y retuvo 9,4%")
+
+    # ── 1c. ritmo y CTAs en el resto del guion ─────────────────────────
+    if texto:
+        pal = texto.split()
+        # Suscripción antes del minuto 10 = el error de mayor coste documentado
+        primeros_10min = " ".join(pal[:PALABRAS_10_MIN]).lower()
+        if re.search(r"suscr[ií]b", primeros_10min):
+            fallos.append("CTA de suscripción antes del minuto 10: moverla al final "
+                          "o después del minuto 10 (REGLAS-VIRALIZACION)")
+        # Re-ganchos: una pregunta directa cada 2-3 min sostiene la retención
+        # media. A 145 ppm son ~400 palabras; se exige 1 por cada 600 (laxo).
+        preguntas = texto.count("¿")
+        datos["preguntas_directas"] = preguntas
+        if len(pal) >= 1000 and preguntas < len(pal) // 600:
+            avisos.append(f"pocos re-ganchos: {preguntas} preguntas directas en "
+                          f"{len(pal)} palabras (se espera ≥{len(pal)//600}, una "
+                          f"cada ~4 min)")
+        # El cierre debe sembrar la pregunta de memoria para comentarios
+        if "¿" not in " ".join(pal[-200:]):
+            avisos.append("cierre sin pregunta de memoria: los últimos ~80 s no "
+                          "preguntan nada al espectador (los comentarios nacen ahí)")
 
     # ── 2. política de contenido (lo que puede costar el canal) ───────
     for patron, etiqueta in PATRONES_PROHIBIDOS:
@@ -181,6 +222,14 @@ def main():
         gritos = [w for w in t.split() if len(w) > 3 and w.isupper()]
         if len(gritos) > 1:
             avisos.append(f"título con varias palabras en mayúsculas: {gritos}")
+        # 25 lee como "inventado para el título"; 23, 17, 14 leen como reales.
+        # Las décadas («los años 70») no cuentan: no son conteos de lista.
+        redondos = [m.group(1) for m in re.finditer(r"\b(\d{2,3})\b", t)
+                    if int(m.group(1)) % 5 == 0
+                    and not re.search(r"años\s*['’]?$", t[:m.start()], re.IGNORECASE)]
+        if redondos:
+            avisos.append(f"número redondo en el título {redondos}: los no redondos "
+                          f"(23, 17, 14) leen como reales")
 
     # ── 8. miniatura ──────────────────────────────────────────────────
     if not (job / "miniatura.jpg").exists():

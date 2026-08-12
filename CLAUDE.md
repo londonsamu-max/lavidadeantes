@@ -59,9 +59,13 @@ tramo. Mismo formato, misma voz, mismas imágenes.
 3. **Promesa explícita** — qué recibe si se queda, y si hay una parte incómoda,
    anunciarla ahí para abrir el bucle («le digo de una vez cuál es la parte que...»).
 
-`quality_gate.py` lo verifica solo y da ROJO si falta el dato o la promesa. Es un
-suelo, no una garantía: el video 3 cumple dos de tres y aun así retiene 9,4% porque
-su arranque sigue siendo contemplativo. El filtro atrapa lo peor; el juicio lo pone Claude.
+`quality_gate.py` (reforzado 12-ago) da ROJO si falta CUALQUIERA de las tres — el freno
+era solo aviso y por ahí se coló el video 3, que cumplía dos de tres y retuvo 9,4%.
+También da ROJO si se pide suscripción antes del min 10, y AVISA si el arranque no se
+dirige al espectador (2ª persona o pregunta), si hay menos de una pregunta directa cada
+~4 min (re-ganchos), si el cierre no siembra pregunta de memoria, o si el título lleva
+número redondo (25 lee «inventado»; 23, 17, 14 leen reales). Es un suelo, no una
+garantía: el filtro atrapa lo peor; el juicio lo pone Claude.
 
 **Sin tarjeta de apertura.** `APERTURA_S = 0` en `overlay_text.py`. Cinco segundos de
 cartel estático es un 8% de la ventana que decide todo, regalado antes de la primera

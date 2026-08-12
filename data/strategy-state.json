@@ -1,7 +1,7 @@
 {
  "version": 1,
- "actualizado": "2026-08-09",
- "fase_canal": "pre-lanzamiento",
+ "actualizado": "2026-08-12",
+ "fase_canal": "publicando — corrigiendo CTR y retención tras diagnóstico 9-ago",
  "canales_referencia": [
   {
    "handle": "@ForgottenAmericanSurvival",
@@ -35,7 +35,14 @@
   }
  ],
  "ideas_detectadas": [],
- "videos_producidos": [],
+ "videos_producidos": [
+  {"n": 1, "slug": "casa-anos-70", "video_id": "4aTa3Q_ce2A", "pct_visto_9ago": 23.0},
+  {"n": 2, "slug": "oficios-del-barrio", "video_id": "NNZoDTVOzgk", "pct_visto_9ago": 20.7},
+  {"n": 3, "slug": "domingo-de-1975", "video_id": "zFFxKCSArdQ", "pct_visto_9ago": 9.4},
+  {"n": 4, "slug": "precios-de-1975", "video_id": "yz3a0NNvqFk", "pct_visto_9ago": 28.0},
+  {"n": 5, "slug": "juguetes-de-antes", "video_id": "CEQJeiLGyL8", "pct_visto_9ago": 3.0},
+  {"n": 6, "slug": "escuela-de-antes", "video_id": null, "estado": "producido, SIN PUBLICAR"}
+ ],
  "lecciones": [
   "L1: Nicho validado jul-2026 con 3 investigaciones cruzadas. Referencia #1 tiene 4 meses y 440K vistas/mes",
   "L2: Vistas por video muy variables (400-3K normal, virales 90-119K cargan el canal) — el volumen es la estrategia",
@@ -44,15 +51,20 @@
   "L5: Titulares que funcionan en referencia: '25 Forgotten X Our Grandparents Used to Y' — adaptar, no traducir literal",
   "DIAGNÓSTICO 9-ago-2026: 584 vistas/28 días, 0 desde pantalla de inicio, 2 desde búsqueda. YouTube no distribuía. Dos causas medidas: CTR 1,4% y retención media 17%.",
   "RETENCIÓN: toda la diferencia está en el primer minuto. Video 3 cae 97%→29% en 1:05; video 4 va 100%→71% en el mismo tramo. Mismo formato, misma voz, mismas imágenes. Lo único distinto: el video 4 abre con cifra dura + freno («Espere») + promesa; el 3 abre contemplando un ambiente.",
-  "ARRANQUE OBLIGATORIO: primeros 30 s (≈75 palabras) = dato concreto verificable + freno + promesa explícita. quality_gate.py lo verifica y da ROJO si falta el dato o la promesa.",
+  "ARRANQUE OBLIGATORIO: primeros 30 s (≈75 palabras) = dato concreto verificable + freno dirigido al espectador + promesa explícita. quality_gate.py (reforzado 12-ago) da ROJO si falta CUALQUIERA de las tres — el freno era solo aviso y por ahí se coló el video 3.",
+  "GATE 12-ago-2026: además del arranque, da ROJO si se pide suscripción antes del min 10 (el error de mayor coste según REGLAS-VIRALIZACION) y AVISA si: el arranque no se dirige al espectador (2ª persona/pregunta), hay menos de 1 pregunta directa cada ~4 min (re-ganchos), el cierre no siembra pregunta de memoria, o el título lleva número redondo (25 lee inventado; 23/17/14 leen reales).",
   "MINIATURAS: el filtro vintage del video MATA la miniatura. En la portada hay que subir saturación y contraste, poner un rostro grande con emoción legible y un titular que abra una pregunta o dé una cifra — no el tema del video. Acento fijo del canal: amarillo #FFC61A.",
   "La tarjeta de apertura de 5 s se elimina (APERTURA_S=0). Es un 8% de la ventana que decide la retención, regalado antes de la primera frase.",
-  "replan.py: cambiar el arranque de un guion ya producido NO obliga a regenerar las imágenes. Reancla por sección emparejando prompts; en el video 6 salvó 119 de 143."
+  "replan.py: cambiar el arranque de un guion ya producido NO obliga a regenerar las imágenes. Reancla por sección emparejando prompts; en el video 6 salvó 119 de 143.",
+  "PATRÓN A REPLICAR: el arranque del video 4 (28% visto, único cerca del benchmark sano de 35-45%): cifra dura en la primera frase + «Espere, no se me vaya» + promesa con la parte incómoda anunciada. El hook H2-dato-incompleto es el del único video que retuvo bien.",
+  "PALANCAS DE DISTRIBUCIÓN AÚN SIN USAR (gratis, de REGLAS-VIRALIZACION): Test & Compare en cada video (elige por watch time, no CTR), listas de reproducción con los de mayor retención en posiciones 1-3, comentario fijado con pregunta de MEMORIA (no de opinión, +30% respuestas), numeración de serie al FINAL del título, posts de comunidad con encuestas 2-3x/semana."
  ],
  "proximos_pasos": [
-  "Producir video piloto de prueba",
-  "Crear cuenta Google del canal + verificaciones",
-  "Configurar ElevenLabs API key",
-  "Definir identidad visual de miniaturas"
+  "Verificar que las miniaturas nuevas (miniaturas.json) están SUBIDAS: python3 pipeline/reminiaturas.py --subir (guarda copia de la anterior). Sin esto el CTR sigue en 1,4%",
+  "Activar Test & Compare en los 5 videos publicados (hasta 3 miniaturas; no parar antes de 48-72 h)",
+  "Publicar escuela-de-antes: pasar ANTES por quality_gate.py reforzado (freno y CTA temprana ahora dan ROJO); si el arranque falla, corregir guion + replan.py, no regenerar visuales",
+  "Crear listas de reproducción (4-8 videos, los de mayor retención en posiciones 1-3, enlazar la LISTA no el video) y fijar en cada video un comentario con pregunta de memoria",
+  "Re-medir hacia el 23-ago (14 días después de las miniaturas nuevas): python3 pipeline/diagnostico.py 14. Éxito = CTR ≥4% y >0 impresiones desde pantalla de inicio. Si el CTR no se mueve, el problema es el paquete título+miniatura, no la distribución",
+  "Próximo video: formato distinto de lista (F2/F5), hook H2, arranque calcado del patrón del video 4"
  ]
 }

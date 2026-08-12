@@ -1,13 +1,18 @@
 {
- "actualizado": "2026-08-03",
+ "actualizado": "2026-08-12",
  "canal": "la-vida-de-antes",
+ "_nota_retencion": "pct_visto = % medio del video visto, medido el 9-ago-2026 con diagnostico.py (28 días). Referencia sana en 20-30 min: 35-45%. La diferencia entera entre videos está en el primer minuto (ver CLAUDE.md, REGLA DURA).",
  "videos": [
   {
    "slug": "casa-anos-70",
+   "n": 1,
    "fecha": "2026-07-22",
+   "video_id": "4aTa3Q_ce2A",
    "formato": "F1-lista",
    "hook": "H1-reconocimiento",
-   "titulo_tentativo": "¿Cuántas de estas 25 cosas había en su casa? | La casa de los años 70",
+   "titulo": "¿Cuántas de estas 25 COSAS había en su casa? | La casa de los años 70",
+   "pct_visto": 23.0,
+   "arranque": "cifra + promesa, sin freno",
    "items_usados": [
     "molinillo",
     "molcajete",
@@ -40,53 +45,89 @@
   },
   {
    "slug": "oficios-del-barrio",
+   "n": 2,
    "fecha": "2026-07-26",
+   "video_id": "NNZoDTVOzgk",
    "formato": "F6-oficios",
    "hook": "H4-objeto-misterioso",
    "titulo": "Los oficios que pasaban gritando por su calle",
-   "video_id": null,
+   "pct_visto": 20.7,
+   "arranque": "ambiente",
    "teaser_siguiente": "un domingo completo de 1975"
   },
   {
    "slug": "domingo-de-1975",
+   "n": 3,
    "fecha": "2026-07-30",
+   "video_id": "zFFxKCSArdQ",
    "formato": "F3-un-dia-en-la-vida",
    "hook": "H3-viaje",
    "titulo": "Así era un domingo entero en 1975, hora por hora",
-   "video_id": "zFFxKCSArdQ",
-   "nota": "primer video con visuales GENERADOS (no buscados)",
+   "pct_visto": 9.4,
+   "arranque": "ambiente contemplativo («Son las seis y media...») — cae de 97% a 29% en 1:05",
+   "nota": "primer video con visuales GENERADOS (no buscados). El peor arranque medido junto con el 5: la lección que originó la REGLA DURA",
    "teaser_siguiente": "lo que costaban las cosas, con fuentes"
   },
   {
    "slug": "precios-de-1975",
+   "n": 4,
    "fecha": "2026-08-03",
+   "video_id": "yz3a0NNvqFk",
    "formato": "F4-antes-vs-ahora",
    "hook": "H2-dato-incompleto",
    "titulo": "Lo que costaban las cosas en 1975 (precios reales del INEGI)",
+   "pct_visto": 28.0,
+   "arranque": "cifra dura + «Espere» + acusación + promesa — el MEJOR arranque medido (100%→71% en 1:05)",
    "fuentes": [
     "INEGI Estadisticas Historicas Cuadro 18.13",
     "PROFECO 2026"
    ],
-   "nota": "paga el teaser del video 3. Cifras verificadas por coordenadas en el PDF de INEGI",
+   "nota": "paga el teaser del video 3. Cifras verificadas por coordenadas en el PDF de INEGI. El patrón de arranque a replicar",
    "teaser_siguiente": "juguetes antes de las pantallas: balero, trompo, matatena, canicas"
+  },
+  {
+   "slug": "juguetes-de-antes",
+   "n": 5,
+   "fecha": "2026-08-06",
+   "video_id": "CEQJeiLGyL8",
+   "formato": "F1-lista (por confirmar)",
+   "hook": "H1-reconocimiento (por confirmar)",
+   "titulo": "Los juguetes de antes tienen 5.000 años",
+   "pct_visto": 3.0,
+   "arranque": "sin promesa — el peor % visto del canal",
+   "nota": "entrada reconstruida el 12-ago desde miniaturas.json y el diagnóstico del 9-ago; fecha estimada, confirmar formato/hook. Su CTR de 1,4% originó el rediseño de miniaturas",
+   "teaser_siguiente": null
+  },
+  {
+   "slug": "escuela-de-antes",
+   "n": 6,
+   "fecha": null,
+   "video_id": null,
+   "estado": "producido, SIN PUBLICAR",
+   "formato": "por confirmar",
+   "hook": "por confirmar",
+   "titulo": "16 millones de libros: así era la escuela de los años 70",
+   "nota": "job en output/escuela-de-antes (solo en la máquina local). Antes de subir: pasar por el quality_gate reforzado (12-ago) — freno y CTA temprana ahora dan ROJO — y miniatura «LE CALIFICABAN LA CONDUCTA» ya definida en miniaturas.json",
+   "teaser_siguiente": null
   }
  ],
  "ultimos_formatos": [
   "F1",
   "F6",
   "F3",
-  "F4"
+  "F4",
+  "F1?"
  ],
  "ultimos_hooks": [
   "H1",
   "H4",
   "H3",
-  "H2"
+  "H2",
+  "H1?"
  ],
  "proximo_sugerido": {
-  "formato": "F1-lista o F2-profundidad",
-  "hook": "H1-reconocimiento",
-  "slug": "juguetes-de-antes",
-  "nota": "paga el teaser del video 4. F1 no se usa desde el video 1, ya rota bien."
+  "formato": "F2-profundidad o F5 (algo que no sea lista: F1 acaba de usarse en el video 5)",
+  "hook": "H2-dato-incompleto",
+  "nota": "Replicar el arranque del video 4 (28% visto): cifra dura en la primera frase + freno dirigido al espectador + promesa con parte incómoda anunciada. H2 es el hook del único video que retuvo bien. Antes de escribir: pasar guion por quality_gate.py, que ahora exige las tres cosas del arranque"
  }
 }
