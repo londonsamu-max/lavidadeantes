@@ -1,0 +1,17 @@
+{
+ "titulo": "La consola: el mueble que unía a la familia (y quién lo mató)",
+ "descripcion": "El mueble más querido de la casa medía metro y medio de largo, costaba meses de sueldo y juntaba a la familia entera alrededor de la música. Hoy casi nadie recuerda su nombre.\n\nEsta es la historia completa de la consola: de la radio de bulbos y la XEW a las radionovelas de Kalimán, del disco de setenta y ocho vueltas al elepé, de los boleros de Los Panchos a la balada de los setenta... y del pequeño aparato japonés que la mató en menos de diez años.\n\nCuénteme en los comentarios: ¿en su casa había consola, tocadiscos o el puro radio? ¿Cuál fue el primer disco que compró con su propio dinero? Leo y contesto cada comentario.\n\nSi este video le regresó un recuerdo bonito, compártalo con alguien que bailó esos discos con usted, y suscríbase para más recuerdos de los años sesenta, setenta y ochenta.\n\n🎨 Las ilustraciones de este video fueron creadas con inteligencia artificial como recreación artística de época: no son fotografías históricas. Contenido sintético declarado.\n\n🎵 Música: \"Gymnopédie No. 1\" (Erik Satie), interpretación de Kevin MacLeod — incompetech.com. Licencia Creative Commons BY 4.0: https://creativecommons.org/licenses/by/4.0/",
+ "tags": ["la vida de antes", "nostalgia", "años 70", "años 60", "consola", "tocadiscos", "discos de vinilo", "radio antigua", "XEW", "radionovelas", "Kalimán", "boleros", "Los Panchos", "José Alfredo Jiménez", "José José", "Juan Gabriel", "Siempre en Domingo", "walkman", "casete", "música del recuerdo", "México de ayer", "historia de México", "recuerdos de la infancia", "tercera edad", "abuelos"],
+ "categoria": "22",
+ "idioma": "es",
+ "sintetico": true,
+ "miniatura": {
+  "imagen": "miniatura-rostro.jpg",
+  "texto": "¿SE ACUERDA|DE ESTE MUEBLE?|*LA MÚSICA DE ANTES"
+ },
+ "miniatura_rostro": {
+  "prompt": "expressive painted portrait, face of a mexican man in his late sixties with grey moustache, delighted nostalgic smile with raised eyebrows, one hand resting on the open lid of a large wooden console record player beside him, warm living room light, plain warm background",
+  "semilla": 147,
+  "comando": "python3 pipeline/imagen.py \"<prompt>\" output/musica-de-antes/miniatura-rostro.jpg --semilla 147"
+ }
+}

@@ -3,7 +3,12 @@
 config/
 
 # Videos renderizados y material intermedio: 15 GB que se regeneran solos.
-output/
+# PERO lo que escribe el cerebro (guion, plan visual, metadata) SÍ se versiona:
+# no se regenera solo, y las sesiones remotas de Claude son efímeras.
+output/*/*
+!output/*/guion.txt
+!output/*/visuales.json
+!output/*/metadata.json
 
 # Entorno y basura del sistema
 .venv/

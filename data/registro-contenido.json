@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-08-03",
+ "actualizado": "2026-08-12",
  "canal": "la-vida-de-antes",
  "videos": [
   {
@@ -69,24 +69,64 @@
    ],
    "nota": "paga el teaser del video 3. Cifras verificadas por coordenadas en el PDF de INEGI",
    "teaser_siguiente": "juguetes antes de las pantallas: balero, trompo, matatena, canicas"
+  },
+  {
+   "slug": "juguetes-de-antes",
+   "fecha": null,
+   "formato": "F1-lista",
+   "hook": "H1-reconocimiento",
+   "titulo": "Los juguetes de antes tienen 5.000 años",
+   "video_id": "CEQJeiLGyL8",
+   "nota": "backfill 12-ago desde miniaturas.json (el registro no se actualizó al producirlo). Retención medida: 3,0% — arranque sin promesa, ver diagnóstico 9-ago",
+   "items_usados": ["balero", "trompo", "canicas", "matatena", "yoyo", "lotería", "muñeca de trapo", "resortera"],
+   "teaser_siguiente": "la música que sonaba en cada casa: los aparatos y las canciones"
+  },
+  {
+   "slug": "escuela-de-antes",
+   "fecha": null,
+   "formato": "F5-recorrido-lugar",
+   "hook": "H2-dato-incompleto",
+   "titulo": "16 millones de libros: así era la escuela de los años 70",
+   "video_id": null,
+   "nota": "backfill 12-ago desde miniaturas.json. Producido, SIN PUBLICAR. Formato/hook estimados por el título y el banco de temas (id 17). items en items_a_registrar_tras_publicar para no dar ROJO falso si se re-corre el quality_gate sobre su propio guion",
+   "items_a_registrar_tras_publicar": ["uniforme escolar", "gis", "pizarrón", "libros de texto gratuitos", "calificación de conducta"]
+  },
+  {
+   "slug": "musica-de-antes",
+   "fecha": "2026-08-12",
+   "formato": "F2-tema-profundidad",
+   "hook": "H4-objeto-misterioso",
+   "titulo": "La consola: el mueble que unía a la familia (y quién lo mató)",
+   "video_id": null,
+   "estado": "guion + visuales.json + metadata.json listos — pendiente producir (flow.py), revisar y subir",
+   "nota": "video 7. Paga el teaser del video de juguetes. Primer uso de F2. Arranque cumple dato+freno+promesa (verificado con las regex del quality_gate). 3.339 palabras, 159 compases generados, ~23 min. Al PUBLICAR: renombrar items_a_registrar_tras_publicar → items_usados (si estuviera en items_usados ya, el quality_gate contaría el guion contra sus propios temas y daría ROJO falso)",
+   "items_a_registrar_tras_publicar": ["consola", "radio de bulbos", "xew", "agustín lara", "cri-cri", "radionovelas", "kalimán", "el ojo de vidrio", "chucho el roto", "disco de 78", "elepé", "disco de 45", "los panchos", "javier solís", "la hora nacional", "josé josé", "juan gabriel", "siempre en domingo", "complacencias", "casete", "ocho pistas", "walkman", "modular", "tocadiscos", "vinilo"],
+   "loop_abierto": "qué mató a la consola en menos de diez años (se paga en la sección 10)",
+   "teaser_siguiente": "la cocina de nuestras abuelas: el fogón, el café de olla, los olores y sabores"
   }
  ],
  "ultimos_formatos": [
   "F1",
   "F6",
   "F3",
-  "F4"
+  "F4",
+  "F1",
+  "F5",
+  "F2"
  ],
  "ultimos_hooks": [
   "H1",
   "H4",
   "H3",
-  "H2"
+  "H2",
+  "H1",
+  "H2",
+  "H4"
  ],
  "proximo_sugerido": {
-  "formato": "F1-lista o F2-profundidad",
-  "hook": "H1-reconocimiento",
-  "slug": "juguetes-de-antes",
-  "nota": "paga el teaser del video 4. F1 no se usa desde el video 1, ya rota bien."
+  "formato": "F5-recorrido-lugar o F3-un-dia-en-la-vida",
+  "hook": "H3-viaje",
+  "slug": "cocina-de-la-abuela",
+  "nota": "paga el teaser del video 7 (musica-de-antes). OJO: tratar remedios/comida como HISTORIA, jamás consejo de salud. Evitar solape con items ya usados (molcajete, comal y tortillas, olla de barro agua están en el video 1: máximo 3 coincidencias)."
  }
 }
