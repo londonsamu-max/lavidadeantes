@@ -1,0 +1,26 @@
+Genera una imagen por cada indicación numerada de abajo, en orden. Nombra cada archivo EXACTAMENTE con el número de tres cifras que abre su indicación (por ejemplo 007), sin añadir nada más. No omitas ninguna. Formato 16:9. Estilo común para todas: acuarela delicada con textura de papel visible, pinceladas sueltas, luz cálida y clara, alto contraste, paleta de tierras suaves, Latinoamérica años setenta. Sin texto, sin letras, sin marcas de agua en la imagen.
+
+120. teenager sitting very close to a radio with a cassette recorder beside it
+121. cardboard shoebox full of small plastic cassette tapes
+122. young man handing a cassette tape to a smiling young woman
+123. family walking out of a house carrying a portable radio, empty living room behind them
+124. small portable cassette player with headphones lying on a table
+125. small blue and silver portable cassette player with thin headphones, close-up
+126. young man walking down a sunny street wearing headphones
+127. one person with headphones standing still in a crowded street
+128. small modern stereo system with separate square speakers on a shelf, 1980s
+129. huge wooden cabinet beside a small modern stereo system, size comparison
+130. long wooden cabinet pushed into the corner of a cluttered storage room
+131. old wooden cabinet used as a table with a vase of flowers and a doily on top
+132. dusty wooden record player cabinet in a dim back room, light from a small window
+133. men loading a wooden cabinet onto a small truck in the street
+134. afternoon sunlight falling on an old wooden cabinet against a wall
+135. hands closing the wooden lid of a record player cabinet
+136. workshop door open with warm light coming out, tools inside
+137. craftsman sanding and polishing an old wooden cabinet in a workshop
+138. restored shiny wooden record player cabinet in a bright modern living room
+139. man showing a restored wooden record player cabinet to two visitors
+140. young people looking through boxes of black vinyl discs in a record shop
+141. young woman placing a black vinyl disc on a modern turntable
+142. old man showing a boy how to hold a black vinyl disc by its edges
+143. wooden crates full of black vinyl discs at an outdoor market, people browsing

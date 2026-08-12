@@ -20,6 +20,7 @@ iterar el diseño del texto NO obliga a re-renderizar los ~100 clips.
 """
 import json
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -27,7 +28,27 @@ from pathlib import Path
 import imageio_ffmpeg
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
+def _ffmpeg_con_texto() -> str:
+    """El ffmpeg que sepa dibujar texto.
+
+    El binario que trae imageio-ffmpeg viene compilado sin libfreetype en algunas
+    plataformas, y entonces no existen los filtros drawtext ni subtitles: el
+    montaje se completa y el render final muere con «No such filter: drawtext»
+    después de haber gastado una hora. Si el empaquetado no los trae, se usa el
+    ffmpeg del sistema (apt install ffmpeg).
+    """
+    for exe in (imageio_ffmpeg.get_ffmpeg_exe(), shutil.which("ffmpeg")):
+        if not exe:
+            continue
+        r = subprocess.run([exe, "-hide_banner", "-filters"],
+                           capture_output=True, text=True)
+        if " drawtext " in r.stdout and " subtitles " in r.stdout:
+            return exe
+    sys.exit("[texto] no hay ningún ffmpeg con los filtros drawtext y subtitles.\n"
+             "        Instala uno completo:  apt-get install -y ffmpeg")
+
+
+FFMPEG = _ffmpeg_con_texto()
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 W, H = 1920, 1080

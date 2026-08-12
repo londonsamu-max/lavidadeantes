@@ -1,0 +1,26 @@
+Genera una imagen por cada indicación numerada de abajo, en orden. Nombra cada archivo EXACTAMENTE con el número de tres cifras que abre su indicación (por ejemplo 007), sin añadir nada más. No omitas ninguna. Formato 16:9. Estilo común para todas: acuarela delicada con textura de papel visible, pinceladas sueltas, luz cálida y clara, alto contraste, paleta de tierras suaves, Latinoamérica años setenta. Sin texto, sin letras, sin marcas de agua en la imagen.
+
+024. tall metal radio transmission tower against a bright sky
+025. 1930s radio studio, a big round metal microphone on a stand
+026. crowd of people in 1930s clothes standing around a radio in a town square
+027. thin man in a suit playing an upright piano beside a large studio microphone
+028. man in a suit singing into a big round vintage microphone in a studio
+029. children in 1940s clothes laughing beside a wooden radio box
+030. children lying on a tiled floor in front of a big wooden radio
+031. group of men in shirtsleeves cheering around a wooden radio in a living room
+032. family jumping with joy around a radio, small living room
+033. grandmother and two children close to a glowing wooden radio at night, lamp light
+034. rooftops of a Latin American city at sunset with radio antennas
+035. family sitting very still in a living room listening to a wooden radio
+036. old woman with knitting resting on her lap, sitting beside a wooden radio
+037. children sitting cross-legged on the floor in front of a large wooden radio
+038. man in a suit performing dramatically into a studio microphone, arms raised
+039. man holding two shoes over a wooden board next to a microphone, radio studio
+040. adventure hero in white clothes and a white turban, painted poster style
+041. boy sitting beside a radio with a dreamy expression, adventure hero painted in the clouds above him
+042. masked bandit on a horse at night, painted poster style
+043. bandit in a wide hat handing coins to poor villagers, storybook illustration
+044. family leaning forward toward a radio with wide eyes, tense faces
+045. two brothers sitting on a bed arguing cheerfully, drawings of two different heroes above them
+046. glowing wooden radio in a dark room with the silhouettes of a family around it
+047. close-up of a round black vinyl disc with light reflecting on its grooves

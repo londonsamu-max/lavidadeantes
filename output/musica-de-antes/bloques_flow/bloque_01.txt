@@ -1,0 +1,26 @@
+Genera una imagen por cada indicación numerada de abajo, en orden. Nombra cada archivo EXACTAMENTE con el número de tres cifras que abre su indicación (por ejemplo 007), sin añadir nada más. No omitas ninguna. Formato 16:9. Estilo común para todas: acuarela delicada con textura de papel visible, pinceladas sueltas, luz cálida y clara, alto contraste, paleta de tierras suaves, Latinoamérica años setenta. Sin texto, sin letras, sin marcas de agua en la imagen.
+
+000. long low wooden cabinet with a record player turntable inside under an open lid, in a 1970s living room, sunlight from a window
+001. two men carrying a long heavy wooden cabinet through the front door of a house
+002. family standing proudly around a long wooden cabinet with a record player on top, living room
+003. young man in modern clothes looking puzzled at an old wooden cabinet with a turntable
+004. close-up of a round black vinyl disc spinning on a record player turntable
+005. grandparents, parents and children sitting together in a warm living room, wooden cabinet with a turntable against the wall
+006. small rectangular cassette tape being slipped into a shirt pocket, close-up of the hand
+007. wooden cabinet with a record player, golden afternoon light in a simple living room
+008. long wooden cabinet on thin tapered legs against the wall of a 1970s living room
+009. white crocheted doily and a vase of flowers on top of a polished wooden cabinet
+010. framed black and white wedding photograph standing on a wooden cabinet
+011. man and woman signing papers at a wooden counter in a 1970s furniture shop
+012. workers unloading a large wooden cabinet wrapped in blankets from a truck in a narrow street
+013. neighbours standing in their doorways watching men carry furniture into a house
+014. wooden cabinet with its lid open showing a record player turntable and a radio dial
+015. close-up of golden woven fabric covering a loudspeaker inside a wooden cabinet
+016. man polishing the top of a wooden cabinet with a cloth, living room
+017. small boy standing at a distance looking at a big wooden cabinet, hands behind his back
+018. hand lifting the polished wooden lid of a record player cabinet
+019. modest living room with a large polished wooden cabinet as the main furniture
+020. family sitting in armchairs in a warm lamplit living room, wooden cabinet nearby
+021. large 1930s wooden radio box with two big round dials, standing on a side table
+022. close-up of a glowing amber radio dial with numbers, dark room
+023. family in 1930s clothes sitting around a wooden radio box, waiting
