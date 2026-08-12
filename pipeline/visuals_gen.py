@@ -17,6 +17,17 @@ real — eso es fabricar registro histórico. La ilustración se lee como lo que
 Con `--estilo foto` se puede forzar el fotorrealismo, pero entonces hay que declarar
 contenido sintético en YouTube Studio y decirlo en la descripción.
 
+CÓMO ESCRIBIR LOS PROMPTS (medido el 12-ago-2026, video 7)
+El modelo detrás del servicio gratuito es pequeño y NO entiende encuadres
+narrativos: «el anfitrión abre orgulloso la tapa de su consola para sus
+invitados» devolvió un muchacho genérico sin mueble ni tapa, y «pila de discos
+en fundas de papel» devolvió una pila de LIBROS. Sí entiende descripción física
+concreta, nombrando el objeto con sus atributos visibles: «mueble largo de
+madera con la tapa abierta y un plato giradiscos dentro» sale a la primera, y
+«disco negro y redondo» sale, mientras que «disco» a secas no.
+Regla: primero el OBJETO descrito por su forma, después quién está y qué hace.
+Vocabulario que este modelo NO dibuja: console stereo, record (sale un libro).
+
 Mantiene el nombre `b###_t#######_slug.jpg` que assemble.py usa para anclar cada
 imagen a su momento exacto. Es reanudable: salta las que ya existen.
 """
@@ -64,7 +75,10 @@ REINTENTOS = 3
 
 
 def construir(q: str, estilo: str) -> str:
-    partes = [q.strip(), CONTEXTO, ESTILOS[estilo], NEGATIVO]
+    # El estilo va DELANTE y se repite al final, igual que en imagen.py: puesto solo
+    # al final el modelo lo diluye y devuelve fotorrealismo genérico. Medido el
+    # 12-ago comparando el mismo prompt en los dos órdenes.
+    partes = [ESTILOS[estilo], q.strip(), CONTEXTO, ESTILOS[estilo], NEGATIVO]
     return ", ".join(p for p in partes if p)
 
 
